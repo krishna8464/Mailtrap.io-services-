@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        /* body{
+            display:flex;
+
+        }
+        body>div:nth-child(1){
+           height: 600px;
+           width: 30%;
+           border: 1px solid red;
+        }
+        body>div:nth-child(2){
+            height: 600px;
+           width: 70%;
+           border: 1px solid red;
+        } */
+        .row{display: flex;
+        }
+        .col-4{
+            margin-right: 100px;
+
+        }
+        #simple-list-example{
+            display: flex;
+            flex-direction: column;
+        }
+        .col-4>input{
+            border: 0px;
+            
+        }
+         
+        #overlay>:hover{
+             cursor: pointer;
+            background-color: grey;
+
+        }
+        .col-4>img:hover{
+            cursor: pointer;
+           background-color:#00d084;
+        }
+        .col-8{
+            margin-left: 100px;
+        }
+        #simple-list-example>a:hover{
+            cursor: pointer;
+            color: green;
+        }
+    </style>
+     
+</head>
+<body >
+    <div class="row">
+        
+        <div class="col-4">
+            
+            <div id="overlay"><img width="90%" src="navbarimg\logo.png" alt="logo"></div>
+             <br>
+             <br>
+             <br>
+            <input type="text" placeholder="&#x1F50D Search">
+            <br>
+            <br>
+            <a href="index.html">Home</a>
+            <hr>
+            <br>
+
+
+          <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+            <a class="p-1 rounded" href="https://api-docs.mailtrap.io/docs/mailtrap-api-docs">Mailtrap API</a>
+            <!-- <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
+            <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
+            <a class="p-1 rounded" href="#simple-list-item-4">Item 4</a>
+            <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a> -->
+          </div>
+        </div>
+        <hr>
+        
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="simple-list-item-1">Mailtrap API</h4>
+            <p>
+                This is documentation for API v2. Please refer here for Sandbox API v1 documentation.
+                
+                Mailtrap API is based on the REST principles. The following documentation covers core resources that are used to manipulate the main entities. To start using the Mailtrap API, only a Mailtrap account is required. You have to be authenticated and call the simple HTTPS request on the URL specified below. Please read these basic instructions before you start working with the API.
+                
+                We offer the following SDKs to integrate Mailtrap API in your application:
+                
+                NodeJS SDK
+                Ruby SDK
+                PHP [coming soon]
+                Python [coming soon].</p>
+            <h4 id="simple-list-item-2">There are several ways to send authenticated HTTP requests:</h4>
+            <p>
+                Send a HTTP header Api-Token: {api_token}, where {api_token} is your API token
+                Send a HTTP header Authorization: Bearer #{token}, where {api_token} is your API token (more info: Token Access Authentication)
+                You can manage your API token on the API Tokens page. API token does not have an expiration date, you may reset it manually.</p>
+            <h4 id="simple-list-item-3">Allowed requests and common responses
+                Allowed HTTPs requests include:</h4>
+            <p>
+                
+                POST - to create a resource
+                PATCH - to update a resource
+                PUT - to replace a resource
+                GET - to get a resource or a list of resources
+                DELETE - to delete a resource
+                Here is the description of common server responses:
+                
+                200 OK - the request was successful (some API calls may return 201 instead).
+                204 No Content - the request was successful but there is no representation to return (i.e. the response is empty).
+                401 Unauthorized - authentication failed or user doesn't have permissions for requested operation.
+                403 Forbidden - access denied.
+                404 Not Found - resource was not found.
+                422 Unprocessable Entity - requested data contain invalid values.
+                All requests must be sent over HTTPS protocol.</p>
+            <h4 id="simple-list-item-4">Item 4</h4>
+            <!-- <p> POST - to create a resource
+                PATCH - to update a resource
+                PUT - to replace a resource
+                GET - to get a resource or a list of resources
+                DELETE - to delete a resource
+                Here is the description of common server responses:
+                
+                200 OK - the request was successful (some API calls may return 201 instead).
+                204 No Content - the request was successful but there is no representation to return (i.e. the response is empty).
+                401 Unauthorized - authentication failed or user doesn't have permissions for requested operation.
+                403 Forbidden - access denied.
+                404 Not Found - resource was not found.
+                422 Unprocessable Entity - requested data contain invalid values.
+                All requests must be sent over HTTPS protocol.</p></p>
+            <h4 id="simple-list-item-5">Item 5</h4>
+            <p> POST - to create a resource
+                PATCH - to update a resource
+                PUT - to replace a resource
+                GET - to get a resource or a list of resources
+                DELETE - to delete a resource
+                Here is the description of common server responses:
+                
+                200 OK - the request was successful (some API calls may return 201 instead).
+                204 No Content - the request was successful but there is no representation to return (i.e. the response is empty).
+                401 Unauthorized - authentication failed or user doesn't have permissions for requested operation.
+                403 Forbidden - access denied.
+                404 Not Found - resource was not found.
+                422 Unprocessable Entity - requested data contain invalid values.
+                All requests must be sent over HTTPS protocol.</p></p> -->
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+ 
