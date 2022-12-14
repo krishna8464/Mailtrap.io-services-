@@ -1,0 +1,67 @@
+#fotter{
+    width: 100%;
+    background-color:whitesmoke;
+}
+#fotterchild{
+    padding: 80px 0 80px 0;
+    width: 100%;
+}
+#grandchild{
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    height: auto;
+    margin: auto;
+    
+}
+#grandchild>div{
+    width: 100%;
+    color:#202c45;
+    margin-right: 10px;
+}
+#firstcell{
+    padding-top: 60px;
+    cursor: pointer;
+}
+#icons{
+    display: flex;
+    align-items: center;
+}
+#icons>div{
+    margin-left: 10px;
+}
+/* #icons>div>img:hover{
+    background-color: #12dd92;
+} */
+#icons>div~div{
+    padding-bottom: 10px;
+}
+.list_items>div>h4{
+color:#202c45;
+font-size: 20px;
+}
+.list_items>div~div{
+    padding-top: 10px;
+    color:#202c45;
+    font-weight: 200;
+}
+.list_items>div~div:hover{
+    color: #12dd92;
+    cursor: pointer;
+}
+#fourthcell>div:nth-child(2){
+ display: flex;
+}
+#fourthcell>div:nth-child(2):hover{
+    text-decoration-color: #12dd92;
+    text-decoration: underline;
+}
+#fourthcell>div:nth-child(4){
+margin-top: 79px;
+}
+@media screen and (min-width:100px) and (max-width:800px) {
+    #grandchild{
+        flex-direction: column;
+    }
+
+}
