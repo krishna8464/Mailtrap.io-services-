@@ -16,19 +16,6 @@
     margin: auto;
     
 }
-#nav>div:nth-child(2){
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: auto;
-    height: auto;
-    cursor: pointer;
-    
-}
-#nav>div:nth-child(1)>div{
-  color: white;
-    font-size: 20px;
-}
 #logo{
     margin-right: 15px;
     
@@ -39,62 +26,14 @@
 #logo>a{
     text-decoration: none;
 }
-
-#dropdownMenu2{
-    background-color: white;
-    color: #202c45;
-    border: none;
-    font-family: Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-    font-weight: 600;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#list_items{
-    width: 350px;
-    height: auto;
-    padding: 10px;
-    border-radius: 15px;
-}
-#list_items>div>a{
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    color: #202c45;
-}
-#list_items>div>a{
-    text-decoration: none;
-}
-#list_items>div>a>div:nth-child(2){
-    padding-left: 15px;
-}
-#list_items>div>a>div:nth-child(2)>li>h4{
-    font-size: 15px;
-}
-#list_items p{
-    font-size: 15px;
-    margin-top: -10px;
-}
-#list_items>div>a>div:nth-child(2):hover{
-    cursor: pointer;
-    color: #00d084;
-}
-/* #dropdownMenu2:hover{
-    text-decoration: underline;
-    text-decoration-color:#00d084;
-} */
-#second_option>a>button{
-font-size: 18px;
-padding: 10px;
-color: #202c45;;
-}
-#second_option>a>button:hover{
-    color: rgb(134, 109, 148);
-    /* text-decoration: underline;
-    text-decoration-color:#00d084; */
-}
 #user-signup{
     display: flex;
     justify-content: space-evenly;
+}
+#users-signup{
+    display: flex;
+    justify-content: space-evenly;
+
 }
 #login{
     padding: 6px 20px 6px 20px;
@@ -107,6 +46,13 @@ color: #202c45;;
 #login>a{
     text-decoration: none;
     color: black;
+}
+#login:hover{
+    background-color: #202c45;
+    color: white;
+}
+#login>a:hover{
+    color: white;
 }
 #signup{
     padding: 6px 20px 6px 20px;
@@ -130,6 +76,90 @@ background-color: #12dd92;
 #inv_opt{
     border: none;
 }
+/* nav bar css ended */
+#signupdet{
+    margin-top: 150px;
+    width: 100%;
+}
+#signupchild{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+#signfirstchild{
+    text-align: center;
+    width:100%;
+   
+}
+
+.setaline{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setaline>button{
+    display: flex;
+}
+span{
+    color: rgb(19, 125, 217);
+    cursor: pointer;
+}
+.spn{
+    visibility: hidden;
+}
+.setaline>button{
+    background-color: white;
+    color: black;
+    border-color: #202c45;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    justify-content: center;
+}
+.setaline>button:hover{
+    background-color: #566583;
+    color: white;
+}
+
+#signupbtn>button{
+    background-color: #00d084;
+    color: white;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+   
+}
+#signupbtn>button:hover{
+    background-color: #12dd92;
+}
+#signsecondchild{
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.rightone{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.rightone>div{
+    margin-left: 10px;
+
+   
+}
+
+
 @media screen and (min-width:916px) and (max-width:3000px) {
     #inv_opt{
         visibility: hidden;
@@ -140,7 +170,7 @@ background-color: #12dd92;
     }
 }
 @media screen and (min-width:100px) and (max-width:915px) {
-    #visable{
+    #user-signup{
         visibility: hidden;
         opacity: 0.0;
         display: none;
@@ -165,5 +195,8 @@ background-color: #12dd92;
         border-radius: 5px;
         font-weight: 500;
         text-decoration: none;
+    }
+    #signupchild{
+       flex-direction: column;
     }
 }
