@@ -87,10 +87,12 @@ background-color: #12dd92;
     width: 70%;
     margin: auto;
     justify-content: space-between;
+    height: auto;
 }
 #signfirstchild{
     text-align: center;
     width:100%;
+    height: auto;
    
 }
 
@@ -177,6 +179,28 @@ span{
 
    
 }
+
+ /* #doit{
+    
+
+    
+
+} */
+#exampleFormControlInput1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: #566583;
+    max-width: 100%;
+    padding-left: 20px;
+}
+
 
 
 @media screen and (min-width:916px) and (max-width:3000px) {
