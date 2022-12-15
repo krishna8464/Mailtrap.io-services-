@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mailtrack</title>
+    <title>Mailtrak | Case_studies</title>
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
     <script src="https://kit.fontawesome.com/6614217c3b.js" crossorigin="anonymous"></script>
@@ -12,117 +12,71 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <style>
-        .container-heading{
+        .container-heading1{
             margin-top: 100px;
+            margin-bottom: 100px;
         }
-        .heading{
+        .heading1{
             text-align: center;
            
         }
+        #big_image{
+            margin-top: 150px;
+            margin-bottom: 150px;
+            display: flex;
+            justify-content: space-evenly;
+            width: 800px;
+            margin: auto;
+           height: auto;
+        }
+        .head{
+            font-size: 40px;
+            font-stretch:ultra-expanded;
+        }
         .logos{
-            margin-top: 100px;
             text-align: center;
             display: flex;
             justify-content: space-evenly;
             width: 950px;
             margin: auto;
-        }
-        #boxes{
             margin-top: 100px;
-            display: grid;
-            grid-template-columns: repeat(6,1fr);
-            width: 900px;
-            margin:auto;
-            text-align: center;
-            margin-left: 300px;
-            background-color: whitesmoke;
-            border: 1px solid white;
+            margin-bottom: 100px;
         }
-        #boxes>div{
-            border: 1px solid white; 
-            margin: auto;
+        .container-heading2{
+            margin-top: 100px;
         }
-        #boxes1>div{
-            border: 1px solid white;
-             margin: auto;
+        .heading2{
+            text-align: center;  
         }
-        #boxes1{
-            margin: 100px;
-            display: grid;
-            grid-template-columns: repeat(6,1fr);
-            width: 900px;
-            margin:auto;
-            text-align: center;
-            margin-left: 300px;
-            background-color: whitesmoke;
-            border: 1px solid white;
+        .box{
+            
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box>div{
+            width: 300px;
             
         }
-        .table{
-            margin:auto;
-            width: 1200px;
+        .box>div>div{
+            
+            border-radius: 10px;
+        }
+        .box>div>div:nth-child(1){
+           background-color:  #fcb900;
+        }
+        #functioning{
             text-align: center;
+            margin-top: 50px;
+            
         }
-       .task{
-        height: 300px;
-        width: 150px;
-        background-color: whitesmoke;
-       }
-       .buy{
-        margin-bottom: 200px;
-        border: 0px;
-        background-color: rgb(90, 211, 90);
-        color: white;
-        border-radius: 5%;
-        padding: 2%;
-        width: 100px;
-       }
-       #big-box{
-        background-color: rgb(249, 241, 232);
-        width: 1200px;
-        margin: auto;
-       }
-       #buttons{
-        width:400px;
-        height: 50px;
-        color: black;
-        background-color: antiquewhite;
-        border: 0ch;
-        border-radius: 5%;
-        margin: auto;
-        display: flex;
-       }
-       #buttons>button{
-        width:200px;
-        height: 50px;
-        color: black;
-        background-color: antiquewhite;
-        border: 1px solid white;
-        border-radius: 5%;
-       }
-       @media all and (min-width:200px) and(max-width:600px){
-            #boxes{
-                grid-template-columns: repeat(2,1fr);
-                grid-template-rows: repeat(3,1fr);
-            }
-            #boxes1{
-                grid-template-columns: repeat(2,1fr);
-                grid-template-rows: repeat(3,1fr);
-            }
-            .logos{
-                width: auto;
-                flex-direction: column;
-            }
-            .table{
-                display: flex;
-                flex-direction: column;
-            }
+        #pills-tab{
+            display: flex;
+            align-items: center;
         }
-
     </style>
 </head>
 <body>
-    <!-- NAV BAR -->
+    <!-- nav start -->
     <div class="fixed-top" id="nav_body">
         <!-- nav bar starts from here -->
         <div class="sticky-top" id="nav">
@@ -409,295 +363,162 @@
            <!-- invisible button ends -->
        </div>  
    </div>
-    <!--nav ends -->
+    <!-- nav end -->
 
-<!-- main start-->
-<div class="container-heading">
-    <div class="heading">
-        <h2>
-            Power up your email capabilities
-        </h2>
-        <div >
-            <p>
-                Trusted by
-            </p>
+    <!-- main strat -->
+    <div id="main">
+        <div class="container-heading1">
+            <div class="heading1">
+                <h1>
+                    Mailtrap Customer Stories
+                </h1>
+                <div >
+                    <h5>
+                        Read successful stories of Mailtrap customers that automated email testing with no hassle.
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div id = "big_image">
+            <img width="90%" src="https://mailtrap.io/wp-content/uploads/2021/05/img__case-study.svg" alt="">
         </div>
     </div>
-</div>
-<div class="container-logos">
-    <div class="logos">
-        <div>
-            <img width="100px" height="75px" src="https://mailtrap.io/wp-content/uploads/2022/11/Yelp-2.svg">
-        </div>
-        <div>
-            <img width="100px" height="48px" src="https://mailtrap.io/wp-content/uploads/2022/11/UserTesting-1.svg">
-        </div>
-        <div>
-            <img width="100px" height="55px" src="https://mailtrap.io/wp-content/uploads/2022/11/PayPal-2.svg">
-        </div>
-        <div>
-            <img width="100px" height="51px" src="https://mailtrap.io/wp-content/uploads/2022/11/Calendly-2.svg">
-        </div>
-        <div>
-            <img width="100px" height="41px" src="https://mailtrap.io/wp-content/uploads/2022/11/Atlassian-2.svg">
-        </div>
-        <div>
-            <img width="100px" height="57px" src="https://mailtrap.io/wp-content/uploads/2022/11/Adobe-2.svg">
-        </div>
-    </div>
-</div>
-<!-- buttons -->
-<div id="buttons">
-    <button id="Email-Sandbox">Email Sandbox</button>
-    <button id="Email-API">Email API</button>
-</div>
-<!-- big box -->
-<div id="big-box">
-    <div id="boxes">
-        <div class="task">
-            <div class="content">
-                <h2>Free</h2>
-                <p>Evaluate Mailtrap or use it on a personal projects and email testing</p>
-                <h1>$0</h1>
-                <p>per month</p>
+<!-- function buttons -->
+
+<div id="functioning">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Business Application</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Cloud Infrastructure</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-default-tab" data-bs-toggle="pill" data-bs-target="#pills-default" type="button" role="tab" aria-controls="pills-default" aria-selected="false">Software developement</button>
+          </li>
+          
+        
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="box">
+                <div>
+                    <div style="background-color: #fcb900">
+                        <img width="100%" src="https://mailtrap.io/wp-content/uploads/2022/06/Featured-Image1-2-1.svg" alt="">
+                    </div>
+                      <div>
+                        <h3>How The Software House Approaches Email Development</h3>
+                      </div>
+                </div>
+                <div>
+                    <div style="background-color: #00d084">
+                        <img width="100%" src="https://mailtrap.io/wp-content/uploads/2022/06/Featured-Image1.svg" alt="">
+                    </div>
+                      <div>
+                        <h3>How Calendly Streamlines Emails Testing with Mailtrap</h3>
+                      </div>
+                </div>
+                <div>
+                    <div style="background-color:#8ed1fc">
+                        <img width="100%" src="https://mailtrap.io/wp-content/uploads/2021/09/Featured-Image1-1.svg" alt="">
+                    </div>
+                    <div>
+                        <h3>
+                            How Kinsta's Developers, Design and OA's
+                        </h3>
+                    </div>
+                      
+                </div>
             </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Individual</h2>
-                <p>Evaluate Mailtrap or use it on a individual projects and email testing</p>
-                <h1>$14</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Team</h2>
-                <p>Evaluate Mailtrap or use it on a team projects and email testing</p>
-                <h1>$34</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Business</h2>
-                <p>Evaluate Mailtrap or use it on a Business projects and email testing</p>
-                <h1>$64</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Premium</h2>
-                <p>Evaluate Mailtrap or use it on a Premium projects and email testing</p>
-                <h1>$129</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Enterprise</h2>
-                <p>Evaluate Mailtrap or use it on a Enterprise projects and email testing</p>
-                <h1>$399</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-    </div>
-    <table class="table">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col">free</th>
-            <th scope="col">Individual</th>
-            <th scope="col">Team</th>
-            <th scope="col">Business</th>
-            <th scope="col">Premium</th>
-            <th scope="col">Enterprise</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row"> Test emails per month</th>
-            <td>100</td>
-            <td>5000</td>
-            <td>15000</td>
-            <td>50000</td>
-            <td>100000</td>
-            <td>1000000</td>
-           
-          </tr>
-          <tr>
-            <th scope="row"> Sending limits per 10s</th>
-            <td>5</td>
-            <td>10</td>
-            <td>25</td>
-            <td>50</td>
-            <td>100</td>
-            <td>150</td>
             
-          </tr>
-          <tr>
-            <th scope="row"> Inboxes</th>
-            <td>1</td>
-            <td>5</td>
-            <td>15</td>
-            <td>40</td>
-            <td>80</td>
-            <td>300</td>
-            
-          </tr>
-          <tr>
-            <th scope="row"> Team members</th>
-            <td>-</td>
-            <td>-</td>
-            <td>20</td>
-            <td>40</td>
-            <td>80</td>
-            <td>999</td>
-            
-          </tr>
-          <tr>
-            <th scope="row"> Max emails per inbox</th>
-            <td>50</td>
-            <td>200</td>
-            <td>400</td>
-            <td>600</td>
-            <td>800</td>
-            <td>1000</td>
-            
-          </tr>
-          <tr>
-            <th scope="row"> API</th>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            
-          </tr>
-          <tr>
-            <th scope="row"> Inbox email address</th>
-            <td>-</td>
-            <td>-</td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            
-          </tr>
-          <tr>
-            <th scope="row"> Email size</th>
-            <td>5MB</td>
-            <td>7MB</td>
-            <td>10MB</td>
-            <td>15MB</td>
-            <td>20MB</td>
-            <td>25MB</td>
-            
-          </tr>
-          <tr>
-            <th scope="row"> Tech info and Bcc</th>
-            <td><i class="fa-regular fa-heart"></i></td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            <td><i class="fa-solid fa-circle-check"></i></td>
-            
-          </tr>
-        </tbody>
-      </table>
-    <div id="boxes1">
-        <div class="task">
-            <div class="content">
-                <h2>Free</h2>
-                <p>Evaluate Mailtrap or use it on a personal projects and email testing</p>
-                <h1>$0</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
         </div>
-        <div class="task">
-            <div class="content">
-                <h2>Individual</h2>
-                <p>Evaluate Mailtrap or use it on a personal projects and email testing</p>
-                <h1>$14</h1>
-                <p>per month</p>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">  <div>
+            <div class="box">
+                <div>
+                    <div style="background-color: #fcb900">
+                        <img width="100%" src="https://mailtrap.io/wp-content/uploads/2022/06/Featured-Image1-2-1.svg" alt="">
+                    </div>
+                      <div>
+                        <h3>How The Software House Approaches Email Development</h3>
+                      </div>
+                </div>
+                
             </div>
+            
+            
+        </div></div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">   <div>
+           <div class="box" >
             <div>
-                <button class="buy">Buy Now</button>
+                <div style="background-color: #00d084">
+                    <img width="100%" src="https://mailtrap.io/wp-content/uploads/2022/06/Featured-Image1.svg" alt="">
+                </div>
+                  <div>
+                    <h3>How Calendly Streamlines Emails Testing with Mailtrap</h3>
+                  </div>
             </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Team</h2>
-                <p>Evaluate Mailtrap or use it on a personal projects and email testing</p>
-                <h1>$34</h1>
-                <p>per month</p>
+            
+           </div>
+        </div></div>
+        <div class="tab-pane fade" id="pills-default" role="tabpanel" aria-labelledby="pills-default-tab" tabindex="0">  <div>
+            <div class="box">
+                <div>
+                    <div style="background-color:#8ed1fc">
+                        <img width="100%" src="https://mailtrap.io/wp-content/uploads/2021/09/Featured-Image1-1.svg" alt="">
+                    </div>
+                    <div>
+                        <h3>
+                            How Kinsta's Developers, Design and OA's
+                        </h3>
+                    </div>
+                </div>
+              
             </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Business</h2>
-                <p>Evaluate Mailtrap or use it on a personal projects and email testing</p>
-                <h1>$64</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Premium</h2>
-                <p>Evaluate Mailtrap or use it on a personal projects and email testing</p>
-                <h1>$129</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="content">
-                <h2>Enterprise</h2>
-                <p>Evaluate Mailtrap or use it on a personal projects and email testing</p>
-                <h1>$399</h1>
-                <p>per month</p>
-            </div>
-            <div>
-                <button class="buy">Buy Now</button>
-            </div>
-        </div>
-    </div>
+          
+              
+        </div></div>
+      </div>
 </div>
 
-<!-- main end -->
-<div id="fotter">
+<!-- functioning button end -->
+    <div class="container-heading2">
+        <div class="heading2">
+            <h1>
+                Trusted by over 900,000 devs, QAs, and
+            </h1>
+            <div >
+                <h1>
+                    managers worldwide
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-logos">
+        <div class="logos">
+            <div>
+                <img width="100px" height="75px" src="https://mailtrap.io/wp-content/uploads/2021/04/Adobe.svg">
+            </div>
+            <div>
+                <img width="100px" height="48px" src="https://mailtrap.io/wp-content/uploads/2021/04/Atlassian.svg">
+            </div>
+            <div>
+                <img width="100px" height="55px" src="https://mailtrap.io/wp-content/uploads/2021/04/Calendly.svg">
+            </div>
+            <div>
+                <img width="100px" height="51px" src="https://mailtrap.io/wp-content/uploads/2021/04/Yelp.svg">
+            </div>
+            <div>
+                <img width="100px" height="41px" src="https://mailtrap.io/wp-content/uploads/2021/04/UserTesting.svg">
+            </div>
+            
+        </div>
+    </div>
+    <!-- main end -->
+    <!-- footer strat -->
+   <div id="fotter">
     <div id="fotterchild">
         <div id="grandchild">
             <div id="firstcell">
@@ -744,138 +565,6 @@
         </div>
     </div>
 </div>
-    <!-- Footer -->
-    
     
 </body>
 </html>
-<script>
-    document.querySelector("#Email-Sandbox").addEventListener("click",()=>{
-        let x = document.querySelector("#boxes");
-        x.innerHTML="";
-        let y = document.querySelector("#boxes1");
-        y.innerHTML="";
-        let arr = [,{
-            heading :"Free",
-            para1 : "Evaluate Mailtrap or use it on a personal projects testing",
-            price : "$"+0,
-            para :"per month",
-            button : "Buy Now"    
-        },{
-            heading :"Individual",
-            para1 : "For individual usage with higher testing limits and projects",
-            price : "$"+14,
-            para :"per month"  ,
-            button : "Buy Now"   
-        },{
-            heading :"Team",
-            para1 : "For teams to collaborate and manage users limits ",
-            price : "$"+34,
-            para :"per month" ,
-            button : "Buy Now"   
-        },{
-            heading :"Business",
-            para1 : "For companies with multiple teams and projects",
-            price : "$"+64,
-            para :"per month",
-            button : "Buy Now"     
-        },{
-            heading :"Premium",
-            para1 : "For organizations that need large-scale email testing",
-            price : "$"+129,
-            para : "per month",
-            button : "Buy Now"    
-        },
-        {
-            heading :"Enterprise",
-            para1 : "For clients who want virtually no limits and SSO",
-            price : "$"+399,
-            para :"per month",
-            button : "Buy Now"    
-        }];
-        let data = arr.map((item) => {
-            return `
-                    <div class="task">
-					<div class="content">
-						<h2>${item.heading}</h2>
-                        <p>${item.para1}</p>
-                        <h1>${item.price}</h1>
-                        <p>${item.para}</p>
-					</div>
-					<div>
-						<button class="buy">${item.button}</button>
-					</div>
-				</div>
-  `;
-        })
-    
-    document.querySelector("#boxes").innerHTML = data.join("");
-
-    document.querySelector("#boxes1").innerHTML = data.join("");
-
-    })
-    document.querySelector("#Email-API").addEventListener("click",()=>{
-        let x = document.querySelector("#boxes");
-        x.innerHTML="";
-        let y = document.querySelector("#boxes1");
-        y.innerHTML="";
-        let arr = [{
-            heading :"Free Overview",
-            para1 : "Evaluate Mailtrap or use it on a personal project",
-            price : "$"+0,
-            para : 1000 + "per month",
-            button : "Buy Now"    
-        },{
-            heading :"Indiviual 10K",
-            para1 : "Evaluate Mailtrap or use it as individual project",
-            price : "$"+10,
-            para : 1000 + "per month"  ,
-            button : "Buy Now"   
-        },{
-            heading :"Team Work 30K",
-            para1 : "Evaluate Mailtrap or use it on a team project",
-            price : "$"+30,
-            para : 1000 + "per month" ,
-            button : "Buy Now"   
-        },{
-            heading :"Bussiness 85K",
-            para1 : "Evaluate Mailtrap or use it on a Premium project",
-            price : "$"+50,
-            para : 1000 + "per month",
-            button : "Buy Now"     
-        },{
-            heading :"Premium 50K",
-            para1 : "Evaluate Mailtrap or use it on Bussiness project",
-            price : "$"+85,
-            para : 1000 + "per month",
-            button : "Buy Now"    
-        },{
-            heading :"Enterprise 750K",
-            para1 : "Evaluate Mailtrap or use it on a costum project",
-            price : "$"+750,
-            para : 1000 + "per month",
-            button : "Buy Now"    
-        }];
-        let data = arr.map((item) => {
-            return `
-                    <div class="task">
-					<div class="content">
-						<h2>${item.heading}</h2>
-                        <p>${item.para1}</p>
-                        <h1>${item.price}</h1>
-                        <p>${item.para}</p>
-					</div>
-					<div>
-						<button class="buy">${item.button}</button>
-					</div>
-				</div>
-  `;
-        })
-    
-    document.querySelector("#boxes").innerHTML = data.join("");
-    document.querySelector("#boxes1").innerHTML = data.join("");    
-
-
-    })
-
-</script>
