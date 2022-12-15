@@ -1,0 +1,385 @@
+.sdiv {
+  height: 100px;
+  width: 1000px;
+  /* border: 1px solid green; */
+  margin: auto;
+  display: flex;
+  padding: 20px;
+}
+
+.sdiv div {
+  height: 100px;
+  width: 200px;
+  /* border: 1px solid green; */
+  margin: auto;
+}
+
+#middiv {
+  width: 100%;
+  height: 900px;
+  background-color: white;
+  padding-top: 200px;
+}
+
+#middiv > h1 {
+  text-align: center;
+}
+
+.midcontain {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px 40px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px 0px;
+}
+.midcontain > div > h3 {
+  color: #1a2e44;
+}
+.midcontain > div > div > p {
+  color: grey;
+  margin-top: 13px;
+}
+.midcontain > div > img {
+  width: 70px;
+  margin-right: 15px;
+}
+.midcontain > div {
+  display: flex;
+}
+.midcontain > div {
+  width: 85%;
+  margin: auto;
+}
+
+.lastdiv {
+  width: 100%;
+  position: relative;
+  padding: 50px 0px;
+  overflow: hidden;
+}
+
+.lastdiv > h1 {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.lastdiv > img {
+  position: absolute;
+  left: 160px;
+  bottom: -250px;
+}
+
+.lastdiv > div {
+  position: relative;
+  width: 55%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px 40px;
+}
+
+.lastdiv > div > div {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  padding: 38px 18px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.lastdiv > div > div > img {
+  position: absolute;
+  z-index: 0.5;
+  top: -40px;
+  width: 60px;
+}
+
+.lastdiv > div > div > h3 {
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+.lastdiv > div > div > p {
+  color: grey;
+  font-size: 16px;
+}
+
+.lastdiv > div > div > p > span {
+  color: rgb(34, 186, 246);
+}
+/* slide */
+
+.slide {
+  margin-top: 5%;
+  padding: 10%;
+  text-align: center;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  /* border: 1px solid blue; */
+  margin-left: 50px;
+  margin-top: 100px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+/* blueBox */
+
+#boximg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 390px;
+  background-color: rgb(26, 46, 68);
+  padding: 60px 0px 0px 190px;
+}
+
+#boximg h2 {
+  color: white;
+}
+#boximg h1 {
+  color: white;
+  font-size: 3.6rem;
+}
+.contain > div > a > button {
+  background-color: #00d084;
+  padding: 13px 19px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  margin: 30px 0px 50px;
+  cursor: pointer;
+}
+@media screen and (min-width: 701px) and (max-width: 3000px) {
+  .sdiv {
+    width: 80%;
+    margin-left: 15%;
+  }
+  /* .slide {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin-top: 10%;
+  } */
+}
+@media screen and (min-width: 951px) and (max-width: 1120px) {
+  .slide {
+    margin-top: 25%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 950px) {
+  .slide {
+    margin-top: 50%;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 800px) {
+  .slide {
+    margin-top: 600px;
+
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 559px) {
+  .slide {
+    margin-top: 700px;
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 479px) {
+  .slide {
+    margin-top: 200%;
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .slide {
+    margin-top: 250%;
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 400px) and (max-width: 700px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sdiv {
+    width: 90%;
+    margin-left: 20%;
+  }
+  .midcontain {
+    width: 100%;
+    display: grid;
+    margin-left: 20%;
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #middiv h1 {
+    margin-left: 30%;
+    width: 500px;
+  }
+  .slide h1 {
+    margin-left: 10%;
+    width: 500px;
+  }
+  .slide {
+    margin-left: 30%;
+    width: 100%;
+  }
+
+  .lastdiv > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+    margin-top: 20%;
+  }
+  #boximg {
+    margin-top: 10%;
+  }
+}
+
+@media all and (min-width: 100px) and (max-width: 399px) {
+  .main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sdiv {
+    width: 90%;
+    margin-left: 20%;
+  }
+  .midcontain {
+    width: 100%;
+    margin-left: 40%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #middiv h1 {
+    margin-left: 80%;
+    width: 500px;
+  }
+  .slide {
+    margin-top: 300%;
+    margin-left: 40%;
+    width: 100%;
+  }
+  .slide h1 {
+    margin-left: 50%;
+    width: 500px;
+  }
+
+  .lastdiv > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+    margin-top: 20%;
+  }
+  #boximg {
+    margin-top: 10%;
+  }
+}
+
+/* automation */
+.automation {
+  height: 600px;
+  width: 1200px;
+  /* border: 1px solid blue; */
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+}
+
+.automation > div {
+  height: 600px;
+  width: 550px;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.automation > div > div > button {
+  background-color: #00d084;
+  padding: 13px 19px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  margin: 30px 0px 50px;
+  cursor: pointer;
+}
+
+.autobottom {
+  height: 50px;
+  width: 550px;
+  /* border: 1px solid orange; */
+  margin: auto;
+  display: flex;
+}
+
+.autobottom > div {
+  height: 50px;
+  width: 100px;
+  /* border: 1px solid green; */
+  margin: auto;
+}
+.qadiv {
+  height: 600px;
+  width: 1200px;
+  /* border: 1px solid blue; */
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+}
+
+
+.qadiv > div > ul {
+  color: #00d084;
+  /* font-size: 34px; */
+}
+.qadiv > div > ul > li {
+  color: grey;
+  /* font-size: 34px; */
+}
+
+.toolset {
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.toolsetdiv {
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+  gap: 80px;
+}
+
+.namediv {
+  height: 250px;
+  width: 1200px;
+  margin: auto;
+  /* display: flex; */
+  margin-top: 100px;
+  /* gap: 80px; */
+  text-align: center;
+  border: 1px solid red;
+}
+
+.namediv1 {
+  height: 100px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  border: 1px solid blue;
+}
