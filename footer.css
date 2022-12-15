@@ -23,9 +23,19 @@
     padding-top: 60px;
     cursor: pointer;
 }
+#fotterimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 100%;
+}
 #icons{
     display: flex;
+    /* justify-content: center; */
     align-items: center;
+    /* margin: auto; */
+    max-width: 100%;
 }
 #icons>div{
     margin-left: 10px;
