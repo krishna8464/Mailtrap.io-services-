@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "email": "yendavamshikrishna123@gmail.com",
+      "username": "vamshi",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "email": "das",
+      "username": "sfsda",
+      "password": "ss",
+      "id": 2
+    },
+    {
+      "email": "adsfadsf",
+      "username": "asdfadsf",
+      "password": "ss",
+      "id": 3
+    }
+  ]
+}

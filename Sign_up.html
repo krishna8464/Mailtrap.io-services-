@@ -13,6 +13,7 @@
     <title>Mailtrack/SignUp</title>
 </head>
 <body>
+    <div id="error"></div>
     <!-- nav bar start -->
     <div class="fixed-top" id="nav_body">
         <!-- nav bar starts from here -->
@@ -22,6 +23,7 @@
            </div>
            <!-- Logo has been attached -->
                   <!-- fourth option in nav-bar ending -->
+                  <span id="aphere"></span>
                   <div id="user-signup">
                        <!-- login button starts -->
                            <div>
@@ -107,7 +109,10 @@
                 <br>
                 <div><h5>OR</h5></div>
                 <br>
-                <div id="signupbtn"><button>Sign Up with Your Email</button></div>
+                <div id="appendhere">
+                    <div id="signupbtn"><button onclick="signup()">Sign Up with Your Email</button></div>
+                </div>
+                
                 <br>
                 <div>
                     <div>By creating a Mailtrap account, you agree to our</div>
@@ -187,3 +192,4 @@
     
 </body>
 </html>
+<script src="signup.js"></script>

@@ -194,6 +194,36 @@ span{
     padding-bottom: 15px;
     border-color: #566583;
     max-width: 100%;
+    padding-left: 20px;
+}
+#pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: #566583;
+    max-width: 100%;
+    padding-left: 20px;
+}
+
+#exampleFormControlInput1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: #566583;
+    max-width: 100%;
+    padding-left: 20px;
 }
 
 
