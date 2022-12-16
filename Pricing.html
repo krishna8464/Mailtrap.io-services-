@@ -20,6 +20,7 @@
            
         }
         .logos{
+            margin-top: 100px;
             text-align: center;
             display: flex;
             justify-content: space-evenly;
@@ -27,6 +28,7 @@
             margin: auto;
         }
         #boxes{
+            margin-top: 100px;
             display: grid;
             grid-template-columns: repeat(6,1fr);
             width: 900px;
@@ -38,12 +40,14 @@
         }
         #boxes>div{
             border: 1px solid white; 
+            margin: auto;
         }
         #boxes1>div{
             border: 1px solid white;
-             
+             margin: auto;
         }
         #boxes1{
+            margin: 100px;
             display: grid;
             grid-template-columns: repeat(6,1fr);
             width: 900px;
@@ -96,7 +100,7 @@
         border: 1px solid white;
         border-radius: 5%;
        }
-       @media screen and (min-width:200px) and(max-width:600px){
+       @media all and (min-width:200px) and(max-width:600px){
             #boxes{
                 grid-template-columns: repeat(2,1fr);
                 grid-template-rows: repeat(3,1fr);
@@ -104,6 +108,14 @@
             #boxes1{
                 grid-template-columns: repeat(2,1fr);
                 grid-template-rows: repeat(3,1fr);
+            }
+            .logos{
+                width: auto;
+                flex-direction: column;
+            }
+            .table{
+                display: flex;
+                flex-direction: column;
             }
         }
 
@@ -604,7 +616,7 @@
           </tr>
           <tr>
             <th scope="row"> Tech info and Bcc</th>
-            <td>-</td>
+            <td><i class="fa-regular fa-heart"></i></td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -690,7 +702,7 @@
         <div id="grandchild">
             <div id="firstcell">
                 <a href="https://railsware.com/">
-                <img width="200px" src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg" alt="">
+                <img id="fotterimg" width="200px" src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg" alt="">
             </a>
             </div>
             <div class="list_items" id="secondcell">
@@ -718,13 +730,13 @@
                 </div>
                 <div class="list_items"  id="icons">
                     <div>
-                        <img height="40px" width="40px" src="footer_images/facebook (1).png" alt="">
+                        <img height="40px" width="40px" src="loginimgs/facebook-0be93f551b662821a339.svg" alt="">
                     </div>
                     <div>
-                        <img height="40px" width="40px" src="footer_images/twitter (1).png" alt="">
+                        <img height="40px" width="40px" src="loginimgs/twitter-57fa29ba21896247fdc6.svg" alt="">
                     </div>
                     <div>
-                        <img height="40px" width="40px" src="footer_images/linkedin (1).png" alt="">
+                        <img height="40px" width="40px" src="loginimgs/linkedin-604440460898fa41700c.svg" alt="">
                     </div>
                 </div>
                 <div>© Railsware Products Studio LLC</div>

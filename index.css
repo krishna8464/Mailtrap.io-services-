@@ -6,7 +6,7 @@
   text-align: center;
   margin-top: 100px;
 }
-.main button {
+.main>a>button {
   background-color: #00d084;
   padding: 13px 19px;
   color: white;
@@ -15,6 +15,14 @@
   font-size: 1.1rem;
   margin: 30px 0px 50px;
   cursor: pointer;
+  text-decoration: none;
+}
+.main>a{
+  text-decoration: none;
+}
+
+.maina>a>button:hover{
+  background-color: #12dd92;
 }
 
 .sdiv {
@@ -233,8 +241,6 @@
   margin: 30px 0px 50px;
   cursor: pointer;
 }
-
-
 @media screen and (min-width: 701px) and (max-width: 3000px) {
   .sdiv {
     width: 80%;
@@ -363,4 +369,24 @@
   #boximg {
     margin-top: 10%;
   }
+.btn{
+  border: none;
+}
+.btn>a>button {
+  background-color: #00d084;
+  padding: 13px 19px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+ 
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn>a{
+  text-decoration: none;
+}
+
+.btn>a>button:hover{
+  background-color: #12dd92;
 }

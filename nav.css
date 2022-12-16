@@ -35,6 +35,7 @@
 }
 #logo>a>img{
     height: 45px;
+    max-width: 100%;
 }
 #logo>a{
     text-decoration: none;
