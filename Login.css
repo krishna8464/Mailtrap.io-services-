@@ -177,6 +177,24 @@ span{
 
    
 }
+#doit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mail_inbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: #566583;
+    max-width: 100%;
+}
 
 
 @media screen and (min-width:916px) and (max-width:3000px) {
