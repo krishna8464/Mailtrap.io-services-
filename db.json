@@ -49,6 +49,13 @@
       "password": "143",
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
       "id": 8
+    },
+    {
+      "email": "ashis@gmail.com",
+      "username": "pal",
+      "password": "1234",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
+      "id": 9
     }
   ]
 }
