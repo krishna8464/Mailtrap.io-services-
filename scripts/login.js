@@ -43,7 +43,7 @@ async function loginbtn(){
         if(status1){
         sessionStorage.setItem("userdetials",JSON.stringify(item))
         sessionStorage.setItem("User-Id",item.id)
-        sessionStorage.setItem("acive","true")
+        sessionStorage.setItem("acive",true)
         }
       }else{
         status2=true
@@ -100,7 +100,7 @@ async function loginbtn(){
       `
       document.querySelector('#alert').innerHTML=data
       setTimeout(() => {
-        window.location.href="#"
+        window.location.href="UI.html"
       }, 3000);
     }else if(status2){
       let data=`

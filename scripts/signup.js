@@ -104,7 +104,7 @@ async function signupbtn(){
         email : email.value.toLowerCase(),
         username : username.value,
         password :password.value,
-        avatar : "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg"
+        avatar : "https://getahut.netlify.app/images/user.png"
       }
       try {
         if(status){

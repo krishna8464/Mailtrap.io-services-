@@ -131,6 +131,16 @@ background-color: #12dd92;
 #inv_opt{
     border: none;
 }
+#barr{
+    background-color: #00d084;
+    border: none;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#barr:hover{
+    background-color: #12dd92;
+    
+}
 @media screen and (min-width:916px) and (max-width:3000px) {
     #inv_opt{
         visibility: hidden;

@@ -825,4 +825,13 @@ body>div:nth-child(1){
         font-size: 80%;
       }
    }
-  
+   #barr{
+    background-color: #00d084;
+    border: none;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#barr:hover{
+    background-color: #12dd92;
+    
+}
