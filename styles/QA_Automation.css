@@ -429,3 +429,14 @@
     text-align: center;
   }
 }
+
+#barr{
+  background-color: #00d084;
+  border: none;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+#barr:hover{
+  background-color: #12dd92;
+  
+}

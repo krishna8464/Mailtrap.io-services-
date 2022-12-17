@@ -7,55 +7,18 @@
       "id": 1
     },
     {
-      "email": "das",
-      "username": "sfsda",
-      "password": "ss",
+      "email": "krishna@gmail.com",
+      "username": "krishna",
+      "password": "123",
+      "avatar": "https://getahut.netlify.app/images/user.png",
       "id": 2
     },
     {
-      "email": "adsfadsf",
-      "username": "asdfadsf",
-      "password": "ss",
+      "email": "vivek@gmail.com",
+      "username": "vivek",
+      "password": "123",
+      "avatar": "https://getahut.netlify.app/images/user.png",
       "id": 3
-    },
-    {
-      "email": "yelpop@gmail.com",
-      "username": "santu",
-      "password": "1234",
-      "id": 4
-    },
-    {
-      "email": "asdfadsfasdf",
-      "username": "dd",
-      "password": "ss",
-      "id": 5
-    },
-    {
-      "email": "ram@gmail.com",
-      "username": "ram",
-      "password": "12345",
-      "id": 6
-    },
-    {
-      "email": "yenda@gmail.com",
-      "username": "krishna",
-      "password": "1234",
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
-      "id": 7
-    },
-    {
-      "email": "vamshi@gmail.com",
-      "username": "vamshikrishna",
-      "password": "143",
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
-      "id": 8
-    },
-    {
-      "email": "ashis@gmail.com",
-      "username": "pal",
-      "password": "1234",
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
-      "id": 9
     }
   ]
 }
