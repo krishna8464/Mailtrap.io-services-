@@ -9,10 +9,10 @@ if(access === "true"){
     let changelocation = document.getElementById("changelocation")
     let data = `
     <button id="barr" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <img style="width: 30px;height: 30px;" src=${img}/>
+    <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
      </button>
     <ul class="dropdown-menu">
-     <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#"><b>User Profil</b></a></li>
+     <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li>
      <li><a href="index.html" onclick="Logout()"  class="dropdown-item" href="#">Log Out</a></li>
      <li><a href="feedback.html" id="logout" class="dropdown-item" href="#">Feed Back</a></li>
      </ul>
@@ -41,7 +41,7 @@ function checkPosition() {
         <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
          </button>
         <ul class="dropdown-menu">
-         <li><a href="#" id="signin" class="dropdown-item" href="#"><b>User Profil</b></a></li>
+         <li><a href="#" id="signin" class="dropdown-item" href="#">User Profil</a></li>
          <li><a href="index.html" onclick="Logout()"  class="dropdown-item" href="#">Log Out</a></li>
          <li><a id="logout" class="dropdown-item" href="#">Feed Back</a></li>
          </ul>
