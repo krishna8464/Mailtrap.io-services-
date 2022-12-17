@@ -19,7 +19,7 @@
   height: 100%;
   background-color: white;
   /* padding-top: 200px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 100px;
 }
 
@@ -32,11 +32,11 @@
   height: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-   gap: 70px 40px;
- /* margin: auto;
+  gap: 70px 40px;
+  /* margin: auto;
   margin-top: 50px;
   padding: 30px 0px; */
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .midcontain > div > h3 {
   color: #1a2e44;
@@ -134,7 +134,7 @@
 
 /* blueBox */
 
-#boximg {
+/* #boximg {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,8 +150,8 @@
 #boximg h1 {
   color: white;
   font-size: 3.6rem;
-}
-.contain > div > a > button {
+} */
+.greenBtn {
   background-color: #00d084;
   padding: 13px 19px;
   color: white;
@@ -220,28 +220,25 @@
     width: 90%;
     margin-left: 20%;
   }
- 
-  
-  }
-  .slide h1 {
-    margin-left: 10%;
-    width: 500px;
-  }
-  .slide {
-    margin-left: 30%;
-    width: 100%;
-  }
+}
+.slide h1 {
+  margin-left: 10%;
+  width: 500px;
+}
+.slide {
+  margin-left: 30%;
+  width: 100%;
+}
 
-  .lastdiv > div {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 100px;
-    margin-top: 20%;
-  }
-  #boximg {
-    margin-top: 10%;
-  }
-
+.lastdiv > div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 100px;
+  margin-top: 20%;
+}
+/* #boximg {
+  margin-top: 10%;
+} */
 
 @media all and (min-width: 100px) and (max-width: 399px) {
   .main {
@@ -277,30 +274,32 @@
     gap: 100px;
     margin-top: 20%;
   }
-  #boximg {
+
+  /* #boximg {
     margin-top: 10%;
-  }
+  } */
 }
 
 /* automation */
 .automation {
-  height: 20%;
+  height: auto;
   width: 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: auto;
   display: flex;
   margin-top: 100px;
+  text-align: center;
 }
-#contdiv{
+#contdiv {
   height: 100%;
   width: 50%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: auto;
 }
-#imgdiv{
+#imgdiv {
   height: 100%;
   width: 50%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 /* .automation > div {
   height: 600px;
@@ -308,10 +307,9 @@
   /* border: 1px solid red; 
   margin: auto;
 } */
-#contdiv>div:nth-child(1){
+#contdiv > div:nth-child(1) {
   width: 100%;
   height: 70%;
-
 }
 .automation > div > div > button {
   background-color: #00d084;
@@ -324,13 +322,13 @@
   cursor: pointer;
 }
 
- .autobottom {
+.autobottom {
   /* height: 50px;
   width: 550px; */
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   margin: auto;
   display: flex;
-} 
+}
 
 .autobottom > div {
   height: 50px;
@@ -341,12 +339,14 @@
 .qadiv {
   height: 600px;
   width: 1200px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: auto;
   display: flex;
   margin-top: 100px;
 }
-
+.qadiv > div {
+  gap: 50px;
+}
 
 .qadiv > div > ul {
   color: #00d084;
@@ -373,6 +373,9 @@
   margin-top: 100px;
   gap: 80px;
 }
+.toolset > div > button {
+  border-radius: 20px;
+}
 
 .namediv {
   height: 250px;
@@ -382,39 +385,62 @@
   margin-top: 100px;
   /* gap: 80px; */
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .namediv1 {
   height: 100px;
-  width: 1200px;
+  width: 80%;
   margin: auto;
   display: flex;
-  gap: 20px;
-  border: 1px solid blue;
+  gap: 50px;
+  /* border: 1px solid blue; */
 }
-#imgdiv{
+#imgdiv {
   margin: auto;
 }
 @media all and (min-width: 10px) and (max-width: 700px) {
   .automation {
     flex-direction: column;
   }
+  .namediv {
+    width: 100%;
+  }
+  .namediv1 {
+    width: 100%;
+    gap: 20px;
+  }
+  .qadiv {
+    display: grid;
+    width: 100%;
+  }
+  .toolset {
+    margin-top: 70%;
+    width: 100%;
+  }
+  .toolsetdiv {
+    display: grid;
+    width: 100%;
+  }
+  #middiv {
+    width: 100%;
+  }
+  #middiv h1 {
+    width: 100%;
+    margin-left: -10%;
+  }
 }
 @media all and (min-width: 10px) and (max-width: 700px) {
-  #contdiv{
+  #contdiv {
     text-align: center;
     width: 100%;
   }
 }
 @media all and (min-width: 10px) and (max-width: 700px) {
-
-  #imgdiv{
+  #imgdiv {
     width: 100%;
   }
 }
-
-
 
 /* for mid div */
 @media all and (min-width: 10px) and (max-width: 700px) {
@@ -422,21 +448,84 @@
     width: 100%;
     display: grid;
     /* margin-left: 20%; */
-  
+
     grid-template-columns: repeat(1, 1fr);
   }
-  #middiv{
+  #middiv {
     text-align: center;
   }
 }
 
-#barr{
+#barr {
   background-color: #00d084;
   border: none;
   padding-right: 40px;
   padding-left: 40px;
 }
-#barr:hover{
+#barr:hover {
   background-color: #12dd92;
-  
+}
+
+/* #boximg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: rgb(26, 46, 68);
+
+  } */
+.contain {
+  margin: auto;
+}
+.contain + div {
+  margin: auto;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+/* boximg */
+#boximg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-color: rgb(26, 46, 68);
+  /* padding: 60px 0px 0px 190px; */
+}
+.contain {
+  margin: auto;
+}
+.contain + div {
+  margin: auto;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+#boximg h2 {
+  color: white;
+}
+#boximg h1 {
+  color: white;
+  font-size: 3.6rem;
+}
+
+@media all and (min-width: 10px) and (max-width: 750px) {
+  #boximg {
+    margin-top: 150%;
+    flex-direction: column;
+    width: 100%;
+  }
+  .boxInnerImg {
+    width: 100%;
+  }
+}
+#barr {
+  background-color: #00d084;
+  border: none;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+#barr:hover {
+  background-color: #12dd92;
 }

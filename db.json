@@ -19,6 +19,13 @@
       "password": "123",
       "avatar": "https://getahut.netlify.app/images/user.png",
       "id": 3
+    },
+    {
+      "email": "dhanashri@gmail.com",
+      "username": "dhanashri",
+      "password": "12345",
+      "avatar": "https://getahut.netlify.app/images/user.png",
+      "id": 4
     }
   ]
 }
