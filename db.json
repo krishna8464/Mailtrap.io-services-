@@ -1,10 +1,11 @@
 {
   "user": [
     {
-      "email": "yendavamshikrishna123@gmail.com",
-      "username": "vamshi",
+      "email": "vivek@gmail.com",
+      "username": "vivek",
       "password": "1234",
-      "id": 1
+      "id": 1,
+      "avatar": "https://media.licdn.com/dms/image/C4E03AQHFRUinyFm-SQ/profile-displayphoto-shrink_100_100/0/1667902385021?e=1676505600&v=beta&t=upsJqA1fFWB02NDc9iujOWOCkaJCje4xcGEO8DcDIko"
     },
     {
       "email": "krishna@gmail.com",
