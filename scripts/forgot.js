@@ -152,9 +152,7 @@ async function patchotp(){
         console.log("some thing went bad in patchotp")
     }
 }
-password
-: 
-"123"
+
 //PATCH  /posts/1
 // async function ToggleFunc(id,new_status){
 //     try {
