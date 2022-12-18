@@ -70,6 +70,7 @@
             font-size: 20px;
             margin-bottom: 10px;
             color: black;
+            padding: 20px;
   }
 @media all and (min-width:10px) and (max-width:750px){
 body>div:nth-child(2){
@@ -126,7 +127,7 @@ body>div:nth-child(2)>div>div>p{
         <!-- nav bar starts from here -->
         <div class="sticky-top" id="nav">
            <div>
-               <div id="logo"><a id="changelocation" href="index.html"><img id="nav_img" src="navbarimg/logo.png" alt=""></a></div>
+               <div id="logo"><a id="changelocation" href="UI.html"><img id="nav_img" src="navbarimg/logo.png" alt=""></a></div>
            </div>
            <!-- Logo has been attached -->
            <!-- first dropdown box starts  first menu option-->
@@ -251,9 +252,9 @@ body>div:nth-child(2)>div>div>p{
                         <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a href="#" id="signin" class="dropdown-item" href="#"><b>User Profil</b></a></li>
+                      <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#"><b>User Profil</b></a></li>
                       <li><a href="index.html"  class="dropdown-item" href="#">Log Out</a></li>
-                      <li><a id="logout" class="dropdown-item" href="#">Feed Back</a></li>
+                      <li><a id="logout" class="dropdown-item" href="feedback.html">Feed Back</a></li>
                     </ul>
                   </div>
            </div>
@@ -417,13 +418,19 @@ body>div:nth-child(2)>div>div>p{
                    share stats with the team.
                  </p>
                 <div>
-                    <input type="text" id="typefeedback" placeholder="Write...">
-                    <button id="Submit_Feedback">Submit Feedback</button></a></div>
+                    <textarea name="details" placeholder="Details" id="typefeedback" required></textarea>
+                    <button onclick="feedbacksub()" id="Submit_Feedback">Submit Feedback</button>
+                </div>
+                    <div id="alerthere"></div>
           </div>
     </div>
     <div>
         <img src="https://mailtrap.io/wp-content/uploads/2022/02/sending_landing_hero_image_2.svg" alt="guy with mailing system">
     </div>
 </div>
+<br>
+<br><br><br>
+<br>
 </body>
 </html>
+<script src="scripts/feedback.js"></script>
