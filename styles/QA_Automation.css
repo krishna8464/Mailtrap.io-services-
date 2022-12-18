@@ -21,10 +21,15 @@
   /* padding-top: 200px; */
   /* border: 1px solid red; */
   margin-top: 100px;
+   
+    text-align: center;
+  
 }
 
-#middiv > h1 {
+#middiv>div{
+  width: 100%;
   text-align: center;
+  border: 1px solid red;
 }
 
 .midcontain {
@@ -248,16 +253,17 @@
     width: 90%;
     margin-left: 20%;
   }
+  
   .midcontain {
     width: 100%;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  #middiv h1 {
-    margin-left: 80%;
-    width: 500px;
-  }
+  /* #middiv h1 {
+    /* margin-left: 80%; */
+   /* width: 500px;
+  } */
   .slide {
     margin-top: 300%;
     margin-left: 40%;
@@ -338,7 +344,7 @@
 }
 .qadiv {
   height: 600px;
-  width: 1200px;
+  width: 100%;
   /* border: 1px solid blue; */
   margin: auto;
   display: flex;
@@ -415,7 +421,7 @@
     width: 100%;
   }
   .toolset {
-    margin-top: 70%;
+    /* margin-top: 70%; */
     width: 100%;
   }
   .toolsetdiv {
@@ -425,10 +431,10 @@
   #middiv {
     width: 100%;
   }
-  #middiv h1 {
+  /* #middiv h1 {
     width: 100%;
     margin-left: -10%;
-  }
+  } */
 }
 @media all and (min-width: 10px) and (max-width: 700px) {
   #contdiv {

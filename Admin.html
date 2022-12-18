@@ -4,37 +4,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6614217c3b.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="styles/UI.css">
     <link rel="stylesheet" href="styles/UI_plans.css">
+    <!-- <link rel="stylesheet" href="styles/Admin.css"> -->
     <link rel="icon" type="image/x-icon" href="https://mailtrap.io/wp-content/uploads/2021/04/cropped-favicon-196x196-1-270x270.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
+
+
+
+    <style>
+        #fixed{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #Admin-container{
+            margin-top: 5%;
+        }
+        .d-flex{
+            display: flex;
+            /* border: 1px solid blue; */
+        }
+        .tab-content{
+            display: flex;
+            /* border: 1px solid red; */
+            margin: auto;
+        
+        }
+        #userProfile{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+           
+        }
+        #userProfile>div{
+            /* border: 1px solid green; */
+            width: 300px;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            
+        }
+        .Details{
+            margin: auto;
+        }
+        .Username{
+            text-align: center;
+        }
+        .Email{
+            text-align: center;
+        }
+        .Plans{
+            text-align: center;
+        }  
+        .Removeuser{
+            text-align: center;
+        }                  
+        .Removeuser>button{
+             width: 50%;
+
+        }
+         #v-pills-tab>div:nth-child(1){
+              display: flex;
+              /* margin: auto; */
+              margin-bottom: 5%;
+              /* position: absolute */
+         }
+         .Removeuser{
+            margin-top: 10px;
+         }
+         
+        .Removeuser>button{
+            background-color: rgb(0, 174, 255);
+            color: white;
+            border: 0px;
+            border-radius: 10px;
+        }
+        #messages{
+            display: grid;
+            /* border: 1px solid red; */
+            align-items: center;
+        }
+        .Feedback{
+            text-align: center;
+        }
+        #messages>div{
+            width: 300px;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+        }
+        #messages>div>div>img{
+            border-radius: 50%;
+        }
+        #userProfile>div>div>img{
+            border-radius: 50%;
+        }
+
+
+        @media all and (min-width:900px) and (max-width:1000px){
+            #userProfile{
+            
+            grid-template-columns: repeat(4,1fr);
+           
+        }
+        }
+        @media all and (min-width:630px) and (max-width:900px){
+            #userProfile{
+            
+            grid-template-columns: repeat(3,1fr);
+           
+        }
+        }
+        @media all and (min-width:424px) and (max-width:630px){
+            #userProfile{
+            
+            grid-template-columns: repeat(2,1fr);
+           
+        }
+        }
+        @media all and (min-width:10px) and (max-width:424px){
+            #userProfile{
+            
+            grid-template-columns: repeat(1,1fr);
+           
+        }
+        }
+
+
+
+
+        /* for messages */
+        
+        @media all and (min-width:900px) and (max-width:1000px){
+            #messages{
+            
+            grid-template-columns: repeat(4,1fr);
+           
+        }
+        }
+        @media all and (min-width:630px) and (max-width:900px){
+            #messages{
+            
+            grid-template-columns: repeat(3,1fr);
+           
+        }
+        }
+        @media all and (min-width:424px) and (max-width:630px){
+            #messages{
+            
+            grid-template-columns: repeat(2,1fr);
+           
+        }
+        }
+        @media all and (min-width:10px) and (max-width:424px){
+            #messages{
+            
+            grid-template-columns: repeat(1,1fr);
+           
+        }
+        }
+        /* .sperateit{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-item>button{
+    font-size: 30px;
+} */
+
+    </style>
 </head>
 <body>
-    <!-- nav bar -->
     <div class="fixed-top" id="nav_body">
         <!-- nav bar starts from here -->
         <div class="sticky-top" id="nav">
            <div>
-               <div id="logo"><a id="changelocation" href="UI.html"><img id="nav_img" src="navbarimg/logo.png" alt=""></a></div>
+               <div id="logo"><a id="changelocation" href="Admin.html"><img id="nav_img" src="navbarimg/logo.png" alt=""></a></div>
            </div>
            <!-- Logo has been attached -->
            <!-- first dropdown box starts  first menu option-->
            <div id="visable">
                <div class="dropdown">
-                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                   <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                      Email Testing
-                   </button>
-                   <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                   </button> -->
+                   <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2"> -->
                        <!-- <li>1automation for Email Testing</li> -->
-                       <div id="QA_Automation">
+                        <div id="QA_Automation">
                            <a href="QA_Automation.html">
                            <div><img src="navbarimg/qa_automation_icon_menu.svg" alt=""></div>
                            <div>
-                               <li><h4>QA Automation</h4></li>
-                               <p>Automation for Email Testing</p>
+                               <!-- <li><h4>QA Automation</h4></li>
+                               <p>Automation for Email Testing</p> -->
                            </div>
                           </a>
                        </div>
@@ -42,8 +206,8 @@
                            <a href="HTML_Check.html">
                            <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
                            <div>
-                               <li><h4>HTML Check</h4></li>
-                               <p>Find HTML/CSS issues</p>
+                               <!-- <li><h4>HTML Check</h4></li>
+                               <p>Find HTML/CSS issues</p> -->
                            </div>
                           </a>
                        </div>
@@ -51,8 +215,8 @@
                            <a href="Fake_SMTP_Server.html">
                            <div><img src="navbarimg/fake_smtp_server_icon_menu.svg" alt=""></div>
                            <div>
-                               <li><h4>Fake SMTP Server</h4></li>
-                               <p>Your own SMTP server</p>
+                               <!-- <li><h4>Fake SMTP Server</h4></li>
+                               <p>Your own SMTP server</p> -->
                            </div>
                            </a>
                        </div>
@@ -60,8 +224,8 @@
                            <a href="Sandbox_API.html">
                            <div><img src="navbarimg/api_icon_menu.svg" alt=""></div>
                            <div>
-                               <li><h4>Sandbox API</h4></li>
-                               <p>Integrate with your application</p>
+                               <!-- <li><h4>Sandbox API</h4></li>
+                               <p>Integrate with your application</p> -->
                            </div>
                           </a>
                        </div>
@@ -72,9 +236,9 @@
                   <!-- second option in nav-bar starting -->
                    <div id="second_option">
                        <a href="Email_API.html">
-                       <button type="button" id="dropdownMenu2">
+                       <!-- <button type="button" id="dropdownMenu2">
                         Email API
-                       </button>
+                       </button> -->
                    </a>
                    </div>
                   <!-- second option in nav-bar ending -->
@@ -82,26 +246,26 @@
                   <!-- third option in nav-bar starting -->
                   <div id="second_option">
                    <a href="Pricing.html">
-                   <button type="button" id="dropdownMenu2">
+                   <!-- <button type="button" id="dropdownMenu2">
                     Pricing
-                   </button>
+                   </button> -->
                    </a>
                </div>
                   <!-- third option in nav-bar ending -->
    
                   <!-- fourth option in nav-bar startyin -->
                   <div class="dropdown">
-                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                   <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                      Resources
-                   </button>
+                   </button> -->
                    <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
                        <!-- <li>1automation for Email Testing</li> -->
                        <div id="API">
                            <a href="API.html">
                            <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
                            <div>
-                               <li><h4>API</h4></li>
-                               <p>Intergrate with existing resources</p>
+                               <!-- <li><h4>API</h4></li>
+                               <p>Intergrate with existing resources</p> -->
                            </div>
                        </a>
                        </div>
@@ -109,8 +273,8 @@
                            <a href="Case_studies.html">
                            <div><img height="40px" width="40px" src="navbarimg/file-case.png" alt=""></div>
                            <div>
-                               <li><h4>Case Studies</h4></li>
-                               <p>Success stories of our Customers</p>
+                               <!-- <li><h4>Case Studies</h4></li>
+                               <p>Success stories of our Customers</p> -->
                            </div>
                           </a>
                        </div>
@@ -118,8 +282,8 @@
                            <a href="Blog.html">
                            <div><img height="40px" width="40px" src="navbarimg/blog.png" alt=""></div>
                            <div>
-                               <li><h4>Blog</h4></li>
-                               <p>The best content about emails</p>
+                               <!-- <li><h4>Blog</h4></li>
+                               <p>The best content about emails</p> -->
                            </div>
                            </a>
                        </div>
@@ -127,8 +291,8 @@
                            <a href="Help.html">
                            <div><img height="40px" width="40px" src="navbarimg/info-center.png" alt=""></div>
                            <div>
-                               <li><h4>Help</h4></li>
-                               <p>How-to's and Knowledge base</p>
+                               <!-- <li><h4>Help</h4></li>
+                               <p>How-to's and Knowledge base</p> -->
                            </div>
                            </a>
                        </div>
@@ -143,9 +307,9 @@
                         <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li>
+                      <!-- <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li> -->
                       <li><a href="index.html"  class="dropdown-item" href="#">Log Out</a></li>
-                      <li><a id="logout" class="dropdown-item" href="feedback.html">Feed Back</a></li>
+                      <!-- <li><a id="logout" class="dropdown-item" href="feedback.html">Feed Back</a></li> -->
                     </ul>
                   </div>
            </div>
@@ -167,17 +331,17 @@
                   <!-- added ones -->
                   <div>
                    <div class="dropdown">
-                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                       <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                          Email Testing
-                       </button>
+                       </button> -->
                        <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
                            <!-- <li>1automation for Email Testing</li> -->
                            <div id="QA_Automation">
                                <a href="QA_Automation.html">
                                <div><img src="navbarimg/qa_automation_icon_menu.svg" alt=""></div>
                                <div>
-                                   <li><h4>QA Automation</h4></li>
-                                   <p>Automation for Email Testing</p>
+                                   <!-- <li><h4>QA Automation</h4></li>
+                                   <p>Automation for Email Testing</p> -->
                                </div>
                               </a>
                            </div>
@@ -185,8 +349,8 @@
                                <a href="HTML_Check.html">
                                <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
                                <div>
-                                   <li><h4>HTML Check</h4></li>
-                                   <p>Find HTML/CSS issues</p>
+                                   <!-- <li><h4>HTML Check</h4></li>
+                                   <p>Find HTML/CSS issues</p> -->
                                </div>
                               </a>
                            </div>
@@ -194,8 +358,8 @@
                                <a href="Fake_SMTP_Server.html">
                                <div><img src="navbarimg/fake_smtp_server_icon_menu.svg" alt=""></div>
                                <div>
-                                   <li><h4>Fake SMTP Server</h4></li>
-                                   <p>Your own SMTP server</p>
+                                   <!-- <li><h4>Fake SMTP Server</h4></li>
+                                   <p>Your own SMTP server</p> -->
                                </div>
                                </a>
                            </div>
@@ -203,8 +367,8 @@
                                <a href="Sandbox_API.html">
                                <div><img src="navbarimg/api_icon_menu.svg" alt=""></div>
                                <div>
-                                   <li><h4>Sandbox API</h4></li>
-                                   <p>Integrate with your application</p>
+                                   <!-- <li><h4>Sandbox API</h4></li>
+                                   <p>Integrate with your application</p> -->
                                </div>
                               </a>
                            </div>
@@ -215,9 +379,9 @@
                       <!-- second option in nav-bar starting -->
                        <div id="second_option">
                            <a href="Email_API.html">
-                           <button  type="button" id="dropdownMenu2">
+                           <!-- <button  type="button" id="dropdownMenu2">
                             Email API
-                           </button>
+                           </button> -->
                            </a>
                        </div>
                       <!-- second option in nav-bar ending -->
@@ -225,26 +389,26 @@
                       <!-- third option in nav-bar starting -->
                       <div id="second_option">
                        <a href="Pricing.html">
-                       <button class="Pricing" type="button" id="dropdownMenu2">
+                       <!-- <button class="Pricing" type="button" id="dropdownMenu2">
                         Pricing
-                       </button>
+                       </button> -->
                        </a>
                    </div>
                       <!-- third option in nav-bar ending -->
        
                       <!-- fourth option in nav-bar startyin -->
                       <div class="dropdown">
-                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                       <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                          Resources
-                       </button>
+                       </button> -->
                        <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
                            <!-- <li>1automation for Email Testing</li> -->
                            <div id="API">
                                <a href="API.html">
                                <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
                                <div>
-                                   <li><h4>API</h4></li>
-                                   <p>Intergrate with existing resources</p>
+                                   <!-- <li><h4>API</h4></li>
+                                   <p>Intergrate with existing resources</p> -->
                                </div>
                            </a>
                            </div>
@@ -252,8 +416,8 @@
                                <a href="Case_studies.html">
                                <div><img height="40px" width="40px" src="navbarimg/file-case.png" alt=""></div>
                                <div>
-                                   <li><h4>Case Studies</h4></li>
-                                   <p>Success stories of our Customers</p>
+                                   <!-- <li><h4>Case Studies</h4></li>
+                                   <p>Success stories of our Customers</p> -->
                                </div>
                               </a>
                            </div>
@@ -284,9 +448,9 @@
                             <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li>
+                          <!-- <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li> -->
                           <li><a href="index.html" onclick="Logout()"  class="dropdown-item" href="#">Log Out</a></li>
-                          <li><a href="feedback.html" id="logout" class="dropdown-item" href="#">Feed Back</a></li>
+                          <!-- <li><a href="feedback.html" id="logout" class="dropdown-item" href="#">Feed Back</a></li> -->
                         </ul>
                       
                       </div>
@@ -298,22 +462,23 @@
            <!-- invisible button ends -->
        </div>  
    </div>
-    <!-- nav bar end -->
     <!-- main start -->
 <div id="Admin-container">
     <br>
     <br>
     <div id="usermenu">
-        <div class="d-flex align-items-start">
+        <div class="d-flex align-items-start" id="fixed">
             <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-   
-              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                <div>
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
              
-              <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                </div>
+               
              
-            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-content" id="v-pills-tabContent">
              
-              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
                 <div id="userProfile">
                     <div>
                         <div class="Avatar">
@@ -325,14 +490,14 @@
                             <div class="Plans">fvdfvdfdf</div>
                         </div>
                         <div class="Removeuser">
-                            <button>dfz dff </button>
+                            <button id="remove">dfz dff </button>
                         </div>
                     </div>
-
+        
                 </div>
-              </div>
-
-              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                    </div>
+        
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
                 <div id="messages">
                     <div>
                         <div class="Avatar">
@@ -344,10 +509,11 @@
                         </div>
                     </div>
                 </div>
-              </div>
+                    </div>
              
-            </div>
+                  </div>
           </div>
+          
     </div>
 
 </div>
@@ -380,17 +546,18 @@ function displaycard(data){
     let data1 = data.map((item)=>{
      return   `  <div>
                         <div class="Avatar">
-                            <img src="${item.avatar}" alt="">
+                            <img width='100%' src="${item.avatar}" alt="">
                         </div>
                         <div class="Details">
-                            <div class="Username">${item.username}</div>
+                            <div class="Username"><b>${item.username}</b></div>
                             <div class="Email">${item.email}</div>
                             <div class="Plans"></div>
                         </div>
                         <div class="Removeuser">
-                            <button>Remove User</button>
+                            <button onClick='deleteItem()'>Remove User</button>
                         </div>
                     </div>`
+
     })
 
     document.querySelector("#userProfile").innerHTML = data1.join(" ")
@@ -416,10 +583,10 @@ function displaycard1(data){
         if(item.feedback){
             return `   <div>
                         <div class="Avatar">
-                            <img src="${item.avatar}" alt="">
+                            <img width='100%' src="${item.avatar}" alt="">
                         </div>
                         <div class="Details">
-                            <div class="Username">${item.username}</div>
+                            <div class="Username"><b>${item.username}</b></div>
                             <div class="Feedback">${item.feedback}</div>
                         </div>
                     </div>`
@@ -427,6 +594,17 @@ function displaycard1(data){
     })
     document.querySelector("#messages").innerHTML = data1.join(" ")
 }
+
+
+
+
+
+ 
+        
+ 
+
+
+
 
 
 </script>
