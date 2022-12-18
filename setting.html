@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/setting.css">
+    <script src="https://kit.fontawesome.com/6614217c3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/setting.css">
     <link rel="stylesheet" href="styles/UI.css">
     <link rel="icon" type="image/x-icon"
         href="https://mailtrap.io/wp-content/uploads/2021/04/cropped-favicon-196x196-1-270x270.png">
@@ -15,349 +15,303 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-    <title>Mailtrack/user-profile</title>
+    <title>Mailtrack/Address</title>
 
 </head>
 
 <body>
 
-    <div class="fixed-top" id="nav_body">
+      <!-- nav bar starts -->
+      <div class="fixed-top" id="nav_body">
         <!-- nav bar starts from here -->
         <div class="sticky-top" id="nav">
-            <div>
-                <div id="logo"><a id="changelocation" href="index.html"><img id="nav_img" src="navbarimg/logo.png"
-                            alt=""></a></div>
-            </div>
-            <!-- Logo has been attached -->
-            <!-- first dropdown box starts  first menu option-->
-            <div id="visable">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Email Testing
-                    </button>
-                    <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <!-- <li>1automation for Email Testing</li> -->
-                        <div id="QA_Automation">
-                            <a href="QA_Automation.html">
-                                <div><img src="navbarimg/qa_automation_icon_menu.svg" alt=""></div>
-                                <div>
-                                    <li>
-                                        <h4>QA Automation</h4>
-                                    </li>
-                                    <p>Automation for Email Testing</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="HTML_Check">
-                            <a href="HTML_Check.html">
-                                <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
-                                <div>
-                                    <li>
-                                        <h4>HTML Check</h4>
-                                    </li>
-                                    <p>Find HTML/CSS issues</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="Fake_SMTP_Server">
-                            <a href="Fake_SMTP_Server.html">
-                                <div><img src="navbarimg/fake_smtp_server_icon_menu.svg" alt=""></div>
-                                <div>
-                                    <li>
-                                        <h4>Fake SMTP Server</h4>
-                                    </li>
-                                    <p>Your own SMTP server</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="Sandbox_API">
-                            <a href="Sandbox_API.html">
-                                <div><img src="navbarimg/api_icon_menu.svg" alt=""></div>
-                                <div>
-                                    <li>
-                                        <h4>Sandbox API</h4>
-                                    </li>
-                                    <p>Integrate with your application</p>
-                                </div>
-                            </a>
-                        </div>
-                    </ul>
-                </div>
-                <!-- first dropdown box ends -->
+           <div>
+               <div id="logo"><a id="changelocation" href="UI.html"><img id="nav_img" src="navbarimg/logo.png" alt=""></a></div>
+           </div>
+           <!-- Logo has been attached -->
+           <!-- first dropdown box starts  first menu option-->
+           <div id="visable">
+               <div class="dropdown">
+                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                     Email Testing
+                   </button>
+                   <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                       <!-- <li>1automation for Email Testing</li> -->
+                       <div id="QA_Automation">
+                           <a href="QA_Automation.html">
+                           <div><img src="navbarimg/qa_automation_icon_menu.svg" alt=""></div>
+                           <div>
+                               <li><h4>QA Automation</h4></li>
+                               <p>Automation for Email Testing</p>
+                           </div>
+                          </a>
+                       </div>
+                       <div id="HTML_Check">
+                           <a href="HTML_Check.html">
+                           <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
+                           <div>
+                               <li><h4>HTML Check</h4></li>
+                               <p>Find HTML/CSS issues</p>
+                           </div>
+                          </a>
+                       </div>
+                       <div id="Fake_SMTP_Server">
+                           <a href="Fake_SMTP_Server.html">
+                           <div><img src="navbarimg/fake_smtp_server_icon_menu.svg" alt=""></div>
+                           <div>
+                               <li><h4>Fake SMTP Server</h4></li>
+                               <p>Your own SMTP server</p>
+                           </div>
+                           </a>
+                       </div>
+                       <div id="Sandbox_API">
+                           <a href="Sandbox_API.html">
+                           <div><img src="navbarimg/api_icon_menu.svg" alt=""></div>
+                           <div>
+                               <li><h4>Sandbox API</h4></li>
+                               <p>Integrate with your application</p>
+                           </div>
+                          </a>
+                       </div>
+                   </ul>
+                 </div>
+                  <!-- first dropdown box ends -->
+   
+                  <!-- second option in nav-bar starting -->
+                   <div id="second_option">
+                       <a href="Email_API.html">
+                       <button type="button" id="dropdownMenu2">
+                        Email API
+                       </button>
+                   </a>
+                   </div>
+                  <!-- second option in nav-bar ending -->
+   
+                  <!-- third option in nav-bar starting -->
+                  <div id="second_option">
+                   <a href="Pricing.html">
+                   <button type="button" id="dropdownMenu2">
+                    Pricing
+                   </button>
+                   </a>
+               </div>
+                  <!-- third option in nav-bar ending -->
+   
+                  <!-- fourth option in nav-bar startyin -->
+                  <div class="dropdown">
+                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                     Resources
+                   </button>
+                   <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                       <!-- <li>1automation for Email Testing</li> -->
+                       <div id="API">
+                           <a href="API.html">
+                           <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
+                           <div>
+                               <li><h4>API</h4></li>
+                               <p>Intergrate with existing resources</p>
+                           </div>
+                       </a>
+                       </div>
+                       <div id="Case_studies">
+                           <a href="Case_studies.html">
+                           <div><img height="40px" width="40px" src="navbarimg/file-case.png" alt=""></div>
+                           <div>
+                               <li><h4>Case Studies</h4></li>
+                               <p>Success stories of our Customers</p>
+                           </div>
+                          </a>
+                       </div>
+                       <div id="Blog">
+                           <a href="Blog.html">
+                           <div><img height="40px" width="40px" src="navbarimg/blog.png" alt=""></div>
+                           <div>
+                               <li><h4>Blog</h4></li>
+                               <p>The best content about emails</p>
+                           </div>
+                           </a>
+                       </div>
+                       <div id="Help">
+                           <a href="Help.html">
+                           <div><img height="40px" width="40px" src="navbarimg/info-center.png" alt=""></div>
+                           <div>
+                               <li><h4>Help</h4></li>
+                               <p>How-to's and Knowledge base</p>
+                           </div>
+                           </a>
+                       </div>
+                   </ul>
+                 </div>
+   
+                  <!-- fourth option in nav-bar ending -->
+                  <div id="user-signup">
+                       
 
-                <!-- second option in nav-bar starting -->
-                <div id="second_option">
-                    <a href="Email_API.html">
-                        <button type="button" id="dropdownMenu2">
-                            Email API
-                        </button>
-                    </a>
-                </div>
-                <!-- second option in nav-bar ending -->
-
-                <!-- third option in nav-bar starting -->
-                <div id="second_option">
-                    <a href="Pricing.html">
-                        <button type="button" id="dropdownMenu2">
-                            Pricing
-                        </button>
-                    </a>
-                </div>
-                <!-- third option in nav-bar ending -->
-
-                <!-- fourth option in nav-bar startyin -->
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Resources
-                    </button>
-                    <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <!-- <li>1automation for Email Testing</li> -->
-                        <div id="API">
-                            <a href="API.html">
-                                <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
-                                <div>
-                                    <li>
-                                        <h4>API</h4>
-                                    </li>
-                                    <p>Intergrate with existing resources</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="Case_studies">
-                            <a href="Case_studies.html">
-                                <div><img height="40px" width="40px" src="navbarimg/file-case.png" alt=""></div>
-                                <div>
-                                    <li>
-                                        <h4>Case Studies</h4>
-                                    </li>
-                                    <p>Success stories of our Customers</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="Blog">
-                            <a href="Blog.html">
-                                <div><img height="40px" width="40px" src="navbarimg/blog.png" alt=""></div>
-                                <div>
-                                    <li>
-                                        <h4>Blog</h4>
-                                    </li>
-                                    <p>The best content about emails</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div id="Help">
-                            <a href="Help.html">
-                                <div><img height="40px" width="40px" src="navbarimg/info-center.png" alt=""></div>
-                                <div>
-                                    <li>
-                                        <h4>Help</h4>
-                                    </li>
-                                    <p>How-to's and Knowledge base</p>
-                                </div>
-                            </a>
-                        </div>
-                    </ul>
-                </div>
-
-                <!-- fourth option in nav-bar ending -->
-                <div id="user-signup">
-
-
-                    <button id="barr" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png" />
+                       <button id="barr" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a href="#" id="signin" class="dropdown-item" href="#"><b>User Profil</b></a></li>
-                        <li><a href="index.html" class="dropdown-item" href="#">Log Out</a></li>
-                        <li><a id="logout" class="dropdown-item" href="#">Feed Back</a></li>
+                      <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li>
+                      <li><a href="index.html" onclick="Logout()"  class="dropdown-item" href="#">Log Out</a></li>
+                      <li><a id="logout" class="dropdown-item" href="feedback.html">Feed Back</a></li>
                     </ul>
-                </div>
-            </div>
-            <!-- I -->
-            <!-- N -->
-            <!-- V -->
-            <!-- E -->
-            <!-- S -->
-            <!-- invisible button starts -->
-            <div id="inv_opt">
-                <button id="bar" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
-                        class="fa-solid fa-bars"></i></button>
-
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                    aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <!-- added ones -->
-                        <div>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Email Testing
-                                </button>
-                                <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <!-- <li>1automation for Email Testing</li> -->
-                                    <div id="QA_Automation">
-                                        <a href="QA_Automation.html">
-                                            <div><img src="navbarimg/qa_automation_icon_menu.svg" alt=""></div>
-                                            <div>
-                                                <li>
-                                                    <h4>QA Automation</h4>
-                                                </li>
-                                                <p>Automation for Email Testing</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="HTML_Check">
-                                        <a href="HTML_Check.html">
-                                            <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
-                                            <div>
-                                                <li>
-                                                    <h4>HTML Check</h4>
-                                                </li>
-                                                <p>Find HTML/CSS issues</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="Fake_SMTP_Server">
-                                        <a href="Fake_SMTP_Server.html">
-                                            <div><img src="navbarimg/fake_smtp_server_icon_menu.svg" alt=""></div>
-                                            <div>
-                                                <li>
-                                                    <h4>Fake SMTP Server</h4>
-                                                </li>
-                                                <p>Your own SMTP server</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="Sandbox_API">
-                                        <a href="Sandbox_API.html">
-                                            <div><img src="navbarimg/api_icon_menu.svg" alt=""></div>
-                                            <div>
-                                                <li>
-                                                    <h4>Sandbox API</h4>
-                                                </li>
-                                                <p>Integrate with your application</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </ul>
-                            </div>
-                            <!-- first dropdown box ends -->
-
-                            <!-- second option in nav-bar starting -->
-                            <div id="second_option">
-                                <a href="Email_API.html">
-                                    <button type="button" id="dropdownMenu2">
-                                        Email API
-                                    </button>
-                                </a>
-                            </div>
-                            <!-- second option in nav-bar ending -->
-
-                            <!-- third option in nav-bar starting -->
-                            <div id="second_option">
-                                <a href="Pricing.html">
-                                    <button class="Pricing" type="button" id="dropdownMenu2">
-                                        Pricing
-                                    </button>
-                                </a>
-                            </div>
-                            <!-- third option in nav-bar ending -->
-
-                            <!-- fourth option in nav-bar startyin -->
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Resources
-                                </button>
-                                <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <!-- <li>1automation for Email Testing</li> -->
-                                    <div id="API">
-                                        <a href="API.html">
-                                            <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
-                                            <div>
-                                                <li>
-                                                    <h4>API</h4>
-                                                </li>
-                                                <p>Intergrate with existing resources</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="Case_studies">
-                                        <a href="Case_studies.html">
-                                            <div><img height="40px" width="40px" src="navbarimg/file-case.png" alt="">
-                                            </div>
-                                            <div>
-                                                <li>
-                                                    <h4>Case Studies</h4>
-                                                </li>
-                                                <p>Success stories of our Customers</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="Blog">
-                                        <a href="Blog.html">
-                                            <div><img height="40px" width="40px" src="navbarimg/blog.png" alt=""></div>
-                                            <div>
-                                                <li>
-                                                    <h4>Blog</h4>
-                                                </li>
-                                                <p>The best content about emails</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="Help">
-                                        <a href="Help.html">
-                                            <div><img height="40px" width="40px" src="navbarimg/info-center.png" alt="">
-                                            </div>
-                                            <div>
-                                                <li>
-                                                    <h4>Help</h4>
-                                                </li>
-                                                <p>How-to's and Knowledge base</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </ul>
-                            </div>
-                            <!-- fourth option in nav-bar ending -->
-                            <div id="user-signup">
-
-                                <button id="barr" class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img style="width: 30px;height: 30px;"
-                                        src="https://getahut.netlify.app/images/user.png" />
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User
-                                            Profil</a></li>
-                                    <li><a href="index.html" onclick="Logout()" class="dropdown-item" href="#">Log
-                                            Out</a>
-                                    </li>
-                                    <li><a href="feedback.html" id="logout" class="dropdown-item" href="#">Feed Back</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                        </div>
-                        <!-- ended ones -->
-                    </div>
-                </div>
-            </div>
-            <!-- invisible button ends -->
-        </div>
-    </div>
+                  </div>
+           </div>
+           <!-- I -->
+           <!-- N -->
+           <!-- V -->
+           <!-- E -->
+           <!-- S -->
+           <!-- invisible button starts -->
+           <div id="inv_opt">
+           <button id="bar" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+   
+               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+               <div class="offcanvas-header">
+                   <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+               </div>
+               <div class="offcanvas-body">
+                  <!-- added ones -->
+                  <div>
+                   <div class="dropdown">
+                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                         Email Testing
+                       </button>
+                       <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                           <!-- <li>1automation for Email Testing</li> -->
+                           <div id="QA_Automation">
+                               <a href="QA_Automation.html">
+                               <div><img src="navbarimg/qa_automation_icon_menu.svg" alt=""></div>
+                               <div>
+                                   <li><h4>QA Automation</h4></li>
+                                   <p>Automation for Email Testing</p>
+                               </div>
+                              </a>
+                           </div>
+                           <div id="HTML_Check">
+                               <a href="HTML_Check.html">
+                               <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
+                               <div>
+                                   <li><h4>HTML Check</h4></li>
+                                   <p>Find HTML/CSS issues</p>
+                               </div>
+                              </a>
+                           </div>
+                           <div id="Fake_SMTP_Server">
+                               <a href="Fake_SMTP_Server.html">
+                               <div><img src="navbarimg/fake_smtp_server_icon_menu.svg" alt=""></div>
+                               <div>
+                                   <li><h4>Fake SMTP Server</h4></li>
+                                   <p>Your own SMTP server</p>
+                               </div>
+                               </a>
+                           </div>
+                           <div id="Sandbox_API">
+                               <a href="Sandbox_API.html">
+                               <div><img src="navbarimg/api_icon_menu.svg" alt=""></div>
+                               <div>
+                                   <li><h4>Sandbox API</h4></li>
+                                   <p>Integrate with your application</p>
+                               </div>
+                              </a>
+                           </div>
+                       </ul>
+                     </div>
+                      <!-- first dropdown box ends -->
+       
+                      <!-- second option in nav-bar starting -->
+                       <div id="second_option">
+                           <a href="Email_API.html">
+                           <button  type="button" id="dropdownMenu2">
+                            Email API
+                           </button>
+                           </a>
+                       </div>
+                      <!-- second option in nav-bar ending -->
+       
+                      <!-- third option in nav-bar starting -->
+                      <div id="second_option">
+                       <a href="Pricing.html">
+                       <button class="Pricing" type="button" id="dropdownMenu2">
+                        Pricing
+                       </button>
+                       </a>
+                   </div>
+                      <!-- third option in nav-bar ending -->
+       
+                      <!-- fourth option in nav-bar startyin -->
+                      <div class="dropdown">
+                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                         Resources
+                       </button>
+                       <ul id="list_items" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                           <!-- <li>1automation for Email Testing</li> -->
+                           <div id="API">
+                               <a href="API.html">
+                               <div><img src="navbarimg/check_html_icon_menu.svg" alt=""></div>
+                               <div>
+                                   <li><h4>API</h4></li>
+                                   <p>Intergrate with existing resources</p>
+                               </div>
+                           </a>
+                           </div>
+                           <div id="Case_studies">
+                               <a href="Case_studies.html">
+                               <div><img height="40px" width="40px" src="navbarimg/file-case.png" alt=""></div>
+                               <div>
+                                   <li><h4>Case Studies</h4></li>
+                                   <p>Success stories of our Customers</p>
+                               </div>
+                              </a>
+                           </div>
+                           <div id="Blog">
+                               <a href="Blog.html">
+                               <div><img height="40px" width="40px" src="navbarimg/blog.png" alt=""></div>
+                               <div>
+                                   <li><h4>Blog</h4></li>
+                                   <p>The best content about emails</p>
+                               </div>
+                               </a>
+                           </div>
+                           <div id="Help">
+                               <a href="Help.html">
+                               <div><img height="40px" width="40px" src="navbarimg/info-center.png" alt=""></div>
+                               <div>
+                                   <li><h4>Help</h4></li>
+                                   <p>How-to's and Knowledge base</p>
+                               </div>
+                               </a>
+                           </div>
+                       </ul>
+                     </div>
+                      <!-- fourth option in nav-bar ending -->
+                      <div id="user-signup">
+                          
+                           <button id="barr" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li>
+                          <li><a href="index.html" onclick="Logout()"  class="dropdown-item" href="#">Log Out</a></li>
+                          <li><a href="feedback.html" id="logout" class="dropdown-item" href="#">Feed Back</a></li>
+                        </ul>
+                      
+                      </div>
+                 </div>
+                  <!-- ended ones -->
+               </div>
+               </div>
+           </div>
+           <!-- invisible button ends -->
+       </div>  
+   </div>
+   <!-- nav bar ends -->
+   
 
 
     <div id="setcontainer">
-        <h2>Settings</h2>
+        <h2>Address</h2>
         <br />
         <span>Billing Information</span>
         <p>This information will be added to your invoice.</p>
@@ -365,7 +319,7 @@
             <div>
                 <label for="first">First Name</label>
                 <br />
-                <input id="first" type="text" />
+                <input id="first" type="text" required/>
             </div>
             <div>
                 <label for="last">Last Name</label>
@@ -402,6 +356,8 @@
                 <br />
                 <select id="country">
                     <option>-- Not selected --</option>
+                    <option value="IN">India</option>
+
                     <option value="AF">Afghanistan</option>
 
                     <option value="BS">Bahamas</option>
@@ -425,8 +381,6 @@
 
                     <option value="HK">Hong Kong</option>
                     <option value="HU">Hungary</option>
-
-                    <option value="IN">India</option>
                     <option value="ID">Indonesia</option>
 
                     <option value="JP">Japan</option>
@@ -482,12 +436,12 @@
             <div>
                 <label for="zip">Zip Code</label>
                 <br />
-                <input id="kazip" type="number" />
+                <input id="kazip" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' size="6" maxlength="6" />
             </div>
             <div>
                 <label for="kaphone">Phone</label>
                 <br />
-                <input id="kaphone" type="number" />
+                <input id="kaphone" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' size="10" maxlength="10" />
             </div>
         </div>
         <span>Notification</span>
@@ -509,8 +463,14 @@
 
             </div>
         </div>
-        <button id="btn">Update</button>
+        <button onclick="updateaddres()" id="btn">Update</button>
+        <div id="alerthere"></div>
+        <br>
+        <br>
+        <br>
+        <br>
 </body>
 
 </html>
 <script src="scripts/UI.js"></script>
+<script src="scripts/settings.js"></script>

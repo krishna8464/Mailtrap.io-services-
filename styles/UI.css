@@ -201,9 +201,10 @@ background-color: #12dd92;
 
  #main{
     height: auto;
-    width: 100%;
+    width: 90%;
     border: 1px solid white;
     margin-top: 100px;
+    margin: auto;
 }
 #main>div:nth-child(1){
 
@@ -493,9 +494,5 @@ background-color: #12dd92;
         font-size: 100%;
     }
 } 
-/* 
- #child1>div:nth-child(3){
-    padding-top: 5%;
-}  */
 
 

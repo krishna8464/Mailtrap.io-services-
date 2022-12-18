@@ -32,6 +32,10 @@
     font-size: 20px;
     margin-bottom: 10px;
 }
+.buttons1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: rgb(39, 147, 242);
+}
 
 @media all and (min-width:300px) and (max-width:1000px){
     #container1{
@@ -40,6 +44,10 @@
         flex-direction: column;
         padding: 5px;
         justify-content: space-evenly;
+        
+    }
+    #container1>div{
+        margin: auto;
     }
 }
 .sperateit{
