@@ -4,82 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mailtrack/Help</title>
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/footer.css">
     <script src="https://kit.fontawesome.com/6614217c3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/UI.css">
     <link rel="icon" type="image/x-icon" href="https://mailtrap.io/wp-content/uploads/2021/04/cropped-favicon-196x196-1-270x270.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Document</title>
     <style>
-        .head{
-           
-            margin: auto;
-           
-            text-align: center;
-        }
-        .head>div>h1{
-            margin-top: 100px
-        }
-        .head>div{
-         margin-bottom:30px;
-        }
-        input{
-            height: 40px;
-            border-radius: 50px;
-            width: 400px;
-            padding: 5px;
-        }
-        .head>div>button{
-            height: 40px;
-            border-radius: 50px;
-            width: 150px;
-            background-color: #00d084;
-
-        }
-        .cards{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            gap: 10px;
-            text-align: center;
-           
-            background-color: #f0f9fa;
-            justify-content: space-evenly;
-            margin: auto;
-           
-        }
-        .cards>div{
-            margin: auto;
-            margin-top: 20px;
-            width: 400px;
-            height: 200px;
+        body>div:nth-child(2){
+    height: auto;
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 200px;
+ }
+  body>div:nth-child(2)>div{
+    height: 100%;
+    width:40%;
+    border: 1px solid white;
+  }
+  body>div:nth-child(2)>div>div{
+    margin-top: 50px
+  }
+  body>div:nth-child(2)>div>div>h1{
+  /* pointer----> */
+   font-size: 70px; 
+  }
+  body>div:nth-child(2)>div>div>p{
+    font-size: 30px;
+    color: rgb(96, 95, 95);
+  }
+  body>div:nth-child(2)>div:nth-child(1)>div>div>a>button{
+    height: 70px;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+    background-color: rgb(38, 204, 38);
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  body>div:nth-child(2)>div>img{
+    width: 100%;
+  }
+  #Submit_Feedback{
+            border: 0px;
+            background-color: #4c83ee;
+            width: 250px;
+            height: 65px;
             border-radius: 10px;
-            background-color: white;
-            margin-bottom: 20px;
-            padding: 2%;
-            
-        }
-        h3{
-            color:#00d084
-        }
-        @media all and (min-width:300px) and (max-width:600px){
-            .cards{
-                display: grid;
-                grid-template-columns: repeat(1,1fr);
-            }
-        }
-        @media all and (min-width:601px) and (max-width:900px){
-            .cards{
-                display: grid;
-                grid-template-columns: repeat(2,1fr);
-            }
-        }
+            color: white;
+            font-size: 20px;
+            margin-bottom: 10px;
+  }
+  #typefeedback{
+            border: 1px solid gray;
+            background-color: whitw;
+            width: 550px;
+            height: 65px;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: black;
+  }
+@media all and (min-width:10px) and (max-width:750px){
+body>div:nth-child(2){
+margin-top: 100px;
+align-items: center;
+ flex-direction: column;
+}
+}
+@media all and (min-width:10px) and (max-width:750px){
+body>div:nth-child(2)>div:nth-child(2){
+margin-top: 40px;
+}
+}
+@media all and (min-width:10px) and (max-width:750px){
+body>div:nth-child(2)>div:nth-child(1)>div>div{
+    text-align: center;
+}
+}
+@media all and (min-width:10px) and (max-width:750px){
+body>div:nth-child(2)>div:nth-child(1)>div>div>a>button{
+    height: 30px;
+    width: 30%;
+    font-size: 50%;
+    text-align: center;
+}
+}
 
+@media all and (min-width:10px) and (max-width:750px){
+body>div:nth-child(2)>div>div>h1{
+    font-size: 100%;
+    text-align: center;
+    }
+}
+@media all and (min-width:10px) and (max-width:750px){
+
+body>div:nth-child(2)>div>div>p{
+    font-size: 70%;
+    color: rgb(95, 92, 92);
+    text-align: center;
+  }
+
+}
+@media all and (min-width:10px) and (max-width:750px){
+
+#typefeedback{
+    width: auto;
+}
+
+}
     </style>
 </head>
-
 <body>
-    <!-- nav start -->
     <div class="fixed-top" id="nav_body">
         <!-- nav bar starts from here -->
         <div class="sticky-top" id="nav">
@@ -203,17 +245,16 @@
    
                   <!-- fourth option in nav-bar ending -->
                   <div id="user-signup">
-                       <!-- login button starts -->
-                           <div>
-                           <button id="login"><a href="Log_in.html">Log In</a></button>
-                           </div>
-                       <!-- login buttion ends -->
-   
-                       <!--  signup button starts-->
-                           <div>
-                           <button id="signup"><a href="Sign_up.html">Sign Up</a></button>
-                           </div>
-                       <!-- signup button ends -->
+                       
+
+                       <button id="barr" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" id="signin" class="dropdown-item" href="#"><b>User Profil</b></a></li>
+                      <li><a href="index.html"  class="dropdown-item" href="#">Log Out</a></li>
+                      <li><a id="logout" class="dropdown-item" href="#">Feed Back</a></li>
+                    </ul>
                   </div>
            </div>
            <!-- I -->
@@ -345,18 +386,17 @@
                        </ul>
                      </div>
                       <!-- fourth option in nav-bar ending -->
-                      <div class="secondappend" id="user-signup">
-                           <!-- login button starts -->
-                               <div>
-                               <button id="login"><a href="Log_in.html">Log In</a></button>
-                               </div>
-                           <!-- login buttion ends -->
-       
-                           <!--  signup button starts-->
-                               <div>
-                               <button id="signup"><a href="Sign_up.html">Sign Up</a></button>
-                               </div>
-                           <!-- signup button ends -->
+                      <div id="user-signup">
+                          
+                           <button id="barr" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li>
+                          <li><a href="index.html" onclick="Logout()"  class="dropdown-item" href="#">Log Out</a></li>
+                          <li><a href="feedback.html" id="logout" class="dropdown-item" href="#">Feed Back</a></li>
+                        </ul>
+                      
                       </div>
                  </div>
                   <!-- ended ones -->
@@ -366,146 +406,24 @@
            <!-- invisible button ends -->
        </div>  
    </div>
-    <!-- nav end -->
+   <!-- nav end -->
 
-    <!-- main part Start-->
-<div id="container">
-
-<div class="head">
+   <div>
     <div>
-        <h1>How can we help?</h1>
+          <div>
+                 <h1>User Feedback,
+                    Email API for Developers</h1>
+                 <p>Deliver emails with Mailtrap Email API or SMTP from any application. Monitor deliverability and
+                   share stats with the team.
+                 </p>
+                <div>
+                    <input type="text" id="typefeedback" placeholder="Write...">
+                    <button id="Submit_Feedback">Submit Feedback</button></a></div>
+          </div>
     </div>
     <div>
-        <input type="text" placeholder="Search the Knowledge base">
-        <button  style="border: 30px;">Search</button>
+        <img src="https://mailtrap.io/wp-content/uploads/2022/02/sending_landing_hero_image_2.svg" alt="guy with mailing system">
     </div>
 </div>
-
-<div class="cards">
-    <div>
-        <h2>Getting started</h2>
-        <p>Start working with Mailtrap</p>
-        <h3>1 article ></h3>
-    </div>
-    <div>
-        <h2>New User Management</h2>
-        <p>Centralized user management to configure permissions</p>
-        <h3>5 article ></h3>
-    </div>
-    <div>
-        <h2>SSO</h2>
-        <p>Set of article how to setup Mailtrap's SSO</p>
-        <h3>6 article ></h3>
-    </div>
-    <div>
-        <h2>Automation</h2>
-        <p>Automated email testing</p>
-        <h3>2 article ></h3>
-    </div>
-    <div>
-        <h2>Collaboration and reporting</h2>
-        <p>Sharing your inboxes and projects with your team</p>
-        <h3>2 article ></h3>
-    </div>
-    <div>
-        <h2>Email testing</h2>
-        <p>Testing and debugging email template</p>
-        <h3>8 article ></h3>
-    </div>
-    <div>
-        <h2>Prevacy & Security</h2>
-        <p>Authentication and data protection</p>
-        <h3>3 articles ></h3>
-    </div>
-    <div>
-        <h2>Sending emails to mailtrap</h2>
-        <p>Integrating Mailtrap with your email system</p>
-        <h3>2 article ></h3>
-    </div>
-    <div>
-        <h2>Troubleshooting</h2>
-        <p>A list of possible errors and ways to fix them</p>
-        <h3>1 article ></h3>
-    </div>
-    <div>
-        <h2>FAQ</h2>
-        <p>Frequently asked questions</p>
-        <h3>1 article ></h3>
-    </div>
-    <div>
-        <h2>Email API</h2>
-        <p>You can now send real emails to your end users with mailtrap.</p>
-        <h3>2 articles ></h3>
-    </div>
-    <div>
-        <h2>Sending Emails</h2>
-        <p>Everything you need to get started with Mailtrap Sending</p>
-        <h3>7 articles ></h3>
-    </div>
-    <div>
-        <h2>Configuration</h2>
-        <p></p>
-        <h3>4 articles ></h3>
-    </div>
-    <div>
-        <h2>Analytics</h2>
-        <p>Understanding the common metrics behind your email sending</p>
-        <h3>3 articles ></h3>
-    </div>
-</div>
-
-</div>
-
-    <!-- main part end -->
-
-    <!-- footer start  -->
-    <div id="fotter" >
-        <div id="fotterchild">
-            <div id="grandchild">
-                <div id="firstcell">
-                    <a href="https://railsware.com/">
-                    <img id="fotterimg" width="200px" src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg" alt="">
-                </a>
-                </div>
-                <div class="list_items" id="secondcell" >
-                    <div><h4>Mailtrap</h4></div>
-                    <div>Pricing</div>
-                    <div>Changelog</div>
-                    <div>Status</div>
-                    <div>Terms of Service</div>
-                    <div>Privacy Policy</div>
-                    <div>Navigational Information</div>
-                    <div>DPA</div>
-                </div>
-                <div class="list_items"  id="thirdcell">
-                    <div><h4>Railsware Experience</h4></div>
-                    <div>Mailtrap Blog</div>
-                    <div>Coupler.io</div>
-                    <div>Smart Checklist for Jira</div>
-                    <div>Careers - Railsware Hiring</div>
-                </div>
-                <div class="list_items"  id="fourthcell">
-                    <div><h4>Contact</h4></div>
-                    <div>
-                        <div>mail:</div>
-                        <div>support@mailtrack.io</div>
-                    </div>
-                    <div class="list_items"  id="icons">
-                        <div>
-                            <img height="40px" width="40px" src="loginimgs/facebook-0be93f551b662821a339.svg" alt="">
-                        </div>
-                        <div>
-                            <img height="40px" width="40px" src="loginimgs/twitter-57fa29ba21896247fdc6.svg" alt="">
-                        </div>
-                        <div>
-                            <img height="40px" width="40px" src="loginimgs/linkedin-604440460898fa41700c.svg" alt="">
-                        </div>
-                    </div>
-                    <div>© Railsware Products Studio LLC</div>
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
 </html>
-<script src="scripts/Help.js"></script>
