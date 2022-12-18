@@ -20,20 +20,6 @@
       "password": "123",
       "avatar": "https://getahut.netlify.app/images/user.png",
       "id": 3
-    },
-    {
-      "email": "yuvraj@gmail.com",
-      "username": "yuvraj",
-      "password": "123",
-      "avatar": "https://getahut.netlify.app/images/user.png",
-      "id": 4
-    },
-    {
-      "email": "yuvi@gmail.com",
-      "username": "yuvi",
-      "password": "123",
-      "avatar": "https://getahut.netlify.app/images/user.png",
-      "id": 5
     }
   ]
 }
