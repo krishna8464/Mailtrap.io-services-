@@ -144,7 +144,7 @@
                     </button>
                     <ul class="dropdown-menu">
                       <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li>
-                      <li><a href="index.html"  class="dropdown-item" href="#">Log Out</a></li>
+                      <li><a href="index.html" onclick="Logout()"  class="dropdown-item" href="#">Log Out</a></li>
                       <li><a id="logout" class="dropdown-item" href="feedback.html">Feed Back</a></li>
                     </ul>
                   </div>
@@ -312,8 +312,6 @@
   <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
      <!-- yuvaraj code -->
-
-
      <div id="main">
         <div><h2>Welcome!</h2><a href="https://calendly.com/mailtrap/transactional-sending"><button>Book a Demo</button></a></div>
        <div id="parent">
@@ -322,7 +320,7 @@
                <hr>
                <div id="div">
                   <div><h1>Sandbox</h1><p>Test Emails on Staging</p></div>
-                  <div><button>Set Up inbox</button></div>
+                  <div><button onclick="moveit()">Set Up inbox</button></div>
                </div>
                <hr>
                <div id="div"><h4>Fake SMTP Server</h4><p>Capture SMTP traffic from staging and dev environments.</p></div>
@@ -343,7 +341,7 @@
              <hr>
              <div id="div2">
                 <div><h1>Email API</h1><p>Send Emails on Production</p></div>
-                <div><button>Set Up domain</button></div>
+                <div><button onclick="moveit()">Set Up domain</button></div>
              </div>
              <hr>
              <div id="div2"><h4>SMTP Service, API/SDK</h4><p>Integrate with our scalable cloud MTA cluster to send your production emails. Well- 
@@ -364,6 +362,7 @@
        </div>
  
     </div>
+    <!-- yuvaraj code ends -->
 
 
 
@@ -372,12 +371,12 @@
      <!-- vivek code -->
      <div id ="container1">
         <div class="container-div">
-            <h2>Individual</h2>
+            <h2 id="individual">Individual</h2>
             <p>For individual usage with higher testing limits</p>
             <div>
                 <span><h3>$</h3></span><h1>14</h1>
                 <p>per month</p>
-                <button class="buttons1">Select</button>
+                <button onclick="individual()" class="buttons1"> select</button>
                 <h6>5,000 emails</h6>
             </div>
             <p><i class="fa-solid fa-check"></i> 10 emails / 10 sec</p>
@@ -389,13 +388,14 @@
             <p><i class="fa-solid fa-check"></i> 10 manual forwarding recipients</p>
             <p><i class="fa-solid fa-check"></i> 5 projects</p>
         </div>
+        <br>
         <div class="container-div">
-            <h2>Team</h2>
+            <h2 id="team">Team</h2>
             <p>For teams to collaborate and manage users and testing</p>
             <div>
                 <span><h3>$</h3></span><h1>34</h1>
                 <p>per month</p>
-                <button class="buttons1">Select</button>
+                <button onclick="team()" class="buttons1">Select</button>
                 <h6>15,000 emails</h6>
             </div>
             <p><i class="fa-solid fa-check"></i> 25 emails / 10 sec</p>
@@ -408,13 +408,14 @@
             <p><i class="fa-solid fa-check"></i> 25 manual forwarding recipients</p>
             <p><i class="fa-solid fa-check"></i> 15 projects</p>
         </div>
+        <br>
         <div class="container-div">
-            <h2>Business</h2>
+            <h2 id="business">Business</h2>
             <p>For companies with multiple teams and projects</p>
             <div>
                 <span><h3>$</h3></span><h1>64</h1>
                 <p>per month</p>
-                <button class="buttons1">Select</button>
+                <button onclick="business()" class="buttons1">Select</button>
                 <h6>50,000 emails</h6>
             </div>
             <p><i class="fa-solid fa-check"></i> 50 emails / 10 sec</p>
@@ -429,13 +430,14 @@
             <p><i class="fa-solid fa-check"></i> 100 manual forwarding recipients</p>
             <p><i class="fa-solid fa-check"></i> 40 projects</p>
         </div>
+        <br>
         <div class="container-div">
-            <h2>Premium</h2>
+            <h2 id="premium">Premium</h2>
             <p>For organizations that need large-scale email testing</p>
             <div>
                 <span><h3>$</h3></span><h1>129</h1>
                 <p>per month</p>
-                <button class="buttons1">Select</button>
+                <button onclick="Premium()" class="buttons1">Select</button>
                 <h6>100,000 emails</h6>
             </div>
             <p><i class="fa-solid fa-check"></i> 100 emails / 10 sec</p>
@@ -450,13 +452,14 @@
             <p><i class="fa-solid fa-check"></i> 100 manual forwarding recipients</p>
             <p><i class="fa-solid fa-check"></i> 80 projects</p>
         </div>
+        <br>
         <div class="container-div">
-            <h2>Enterprise</h2>
+            <h2 id="enterprise">Enterprise</h2>
             <p>For clients who want virtually no limits and SSO</p>
             <div>
                 <span><h3>$</h3></span><h1>399</h1>
                 <p>per month</p>
-                <button class="buttons1">Select</button>
+                <button onclick="enterprise()" class="buttons1">Select</button>
                 <h6>10,000,000 emails</h6>
             </div>
             <p><i class="fa-solid fa-check"></i> 150 emails / 10 sec</p>
@@ -472,8 +475,13 @@
             <p><i class="fa-solid fa-check"></i> 300 projects</p>
             <p><i class="fa-solid fa-check"></i> Single sign-on (SSO)</p>
         </div>
-    
+        
        </div>
+       <!-- vivek code ends -->
+       <br>
+        <br>
+        <br>
+        <br>
      <!-- code ends -->
     </div><div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
   </div>
