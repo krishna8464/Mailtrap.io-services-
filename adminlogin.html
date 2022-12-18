@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="styles/adminlogin.css">
+    <title>mailtrap/admin login</title>
+     
+</head>
+<body>
+    <div id="main">
+        <div id="admlogin">
+             <div>
+                  <div>
+                    <h4>Welcome back Admin</h4>
+                    <h2>Login to your account</h3>
+                  </div>
+                  <div>
+                    <input id="input1" class="input" placeholder="Login with Email or phone number" type="text">
+                  </div>
+                  <!-- <hr> -->
+                  <div>
+                    <input id="input2" class="input" placeholder="Password" type="text">
+                  </div>
+                   <div id="div4">
+                      <div>
+                           <div>
+                              <input type="checkbox" name="Remember me" id="check">
+                            </div>
+                            <div>
+                               <p>Remember me</p>
+                            </div>
+                      </div>
+                      <div>
+                          <a href="">Forgot password</a>
+                      </div>
+                       <div><button onClick="login()">Login</button></div>
+                    </div>
+                               
+             </div>
+        </div>
+        <div id="admimg">
+              <img width="80%"src="https://mailtrap.io/wp-content/uploads/2022/02/sending_landing_hero_image_2.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+
+
+ function login(){
+  let adm=document.getElementById("input1").value;
+ let admpass=document.getElementById("input2").value;
+ if(adm=="admin"&& admpass=="12345"){
+  alert("welcome admin")
+  window.location.href="Admin.html"
+ }else{
+  alert("wrong details")
+ }
+  
+ }
+ 
+</script>
