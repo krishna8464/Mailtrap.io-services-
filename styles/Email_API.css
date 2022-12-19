@@ -11,8 +11,9 @@ body>div:nth-child(1){
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
-    
-    margin-top: 200px;
+    max-width: 100%;
+    align-items: center;
+    /* margin-top: 200px; */
  }
   body>div:nth-child(2)>div{
     height: 100%;
