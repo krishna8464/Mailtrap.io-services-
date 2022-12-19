@@ -1,29 +1,36 @@
 {
   "user": [
     {
-      "email": "yendavamshikrishna123@gmail.com",
-      "username": "Vamshikrishna",
-      "password": "12345",
-      "avatar": "https://scontent-tir2-2.xx.fbcdn.net/v/t1.6435-9/60045178_761967887532583_4141416008940257280_n.jpg?stp=c120.0.720.720a_dst-jpg_s851x315&_nc_cat=101&ccb=1-7&_nc_sid=da31f3&_nc_ohc=ykztqSiW73UAX_7jsvU&_nc_ht=scontent-tir2-2.xx&oh=00_AfBX5-KWOVB9K4f-HWL8tRrhgxwD1VSI24Utep4W-Zl9yw&oe=63C74243",
-      "id": 5,
-      "feedback": "Love Outplay. The level of professionalism and desire to satisfy the customer is second to none. There is a sincere desire to make the customer happy. They have done a great job evolving the product from when I first started using it just about a couple of years ago. If you are considering a marketing automation program, I would highly recommend Outplay.",
+      "email": "ashish@gmail.com",
+      "username": "Ashish",
+      "password": "123",
+      "avatar": "https://media.licdn.com/dms/image/D4D35AQHT3uTfPePafw/profile-framedphoto-shrink_100_100/0/1669003100792?e=1672045200&v=beta&t=DvKIEdVh7fvfmrhrpEz5PDj7jD7NHS_6_rHV4UD_CC8",
+      "id": 7,
+      "feedback": "Deliver emails with Mailtrap Email API or SMTP from any application. Monitor deliverability and share stats with the team.User Feedback, Email API for Developers",
       "plan": {
-        "planname": "Premium",
-        "planamount": "$129"
+        "planname": "individual",
+        "planamount": "$14"
       },
       "address": {
-        "Name": "vamshi krishna yenda",
+        "Name": "Ashish Pal",
         "Company": "Amazon",
-        "Tax_Inv": "5745464S9FDY",
-        "Adress": "K.L.N peta",
-        "Cityname": "SRIKAKULAM",
+        "Tax_Inv": "555555441641641",
+        "Adress": "kunalatchunnaidu peta",
+        "Cityname": "jalumuru",
         "State": "Andhra Pradesh",
         "Country": "IN",
         "Zipcode": "532432",
         "Contact": "8464963224",
-        "Mail": "yendavamshikrishna123@gmail.com"
+        "Mail": "ashish@gmail.com"
       },
-      "carddetials": "8796649826395656"
+      "carddetials": "6649646464646464"
+    },
+    {
+      "email": "yendavamshikrishna123@gmail.com",
+      "username": "Vamshi",
+      "password": "Vamshi@111047",
+      "avatar": "https://media.licdn.com/dms/image/D4E03AQHRnp7JmOGkZw/profile-displayphoto-shrink_100_100/0/1665719590293?e=1677110400&v=beta&t=EX10D-MWbaonpBVCIX9_66rqQtEsLforX0cGUsSDakU",
+      "id": 8
     }
   ]
 }
