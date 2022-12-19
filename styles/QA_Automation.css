@@ -29,7 +29,7 @@
 #middiv>div{
   width: 100%;
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .midcontain {
@@ -121,9 +121,27 @@
 /* slide */
 
 .slide {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
   margin-top: 5%;
   padding: 10%;
-  text-align: center;
+  max-width: 100%;
+  /* width: 100%; */
+}
+slide>div:nth-child(1){
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+  
+}
+#setthewidth{
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .box {
@@ -179,7 +197,7 @@
     margin-top: 10%;
   } */
 }
-@media screen and (min-width: 951px) and (max-width: 1120px) {
+/* @media screen and (min-width: 951px) and (max-width: 1120px) {
   .slide {
     margin-top: 25%;
   }
@@ -191,7 +209,7 @@
 }
 @media screen and (min-width: 560px) and (max-width: 800px) {
   .slide {
-    margin-top: 600px;
+   
 
     margin-left: 10%;
   }
@@ -215,7 +233,7 @@
     margin-left: 10%;
     width: 100%;
   }
-}
+} */
 
 @media all and (min-width: 400px) and (max-width: 700px) {
   .main {
@@ -227,12 +245,14 @@
   }
 }
 .slide h1 {
-  margin-left: 10%;
+  /* margin-left: 10%; */
   width: 500px;
 }
 .slide {
-  margin-left: 30%;
+  /* margin-left: 30%; */
+  
   width: 100%;
+  
 }
 
 .lastdiv > div {
@@ -265,12 +285,12 @@
    /* width: 500px;
   } */
   .slide {
-    margin-top: 300%;
-    margin-left: 40%;
+    /* margin-top: 300%; */
+    /* margin-left: 40%; */
     width: 100%;
   }
   .slide h1 {
-    margin-left: 50%;
+    /* margin-left: 50%; */
     width: 500px;
   }
 
@@ -343,12 +363,13 @@
   margin: auto;
 }
 .qadiv {
-  height: 600px;
+  height: auto;
   width: 100%;
   /* border: 1px solid blue; */
   margin: auto;
   display: flex;
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  justify-content: space-evenly;
 }
 .qadiv > div {
   gap: 50px;
@@ -364,19 +385,19 @@
 }
 
 .toolset {
-  height: 600px;
-  width: 1200px;
+  height: auto;
+  width: 100%;
   margin: auto;
   margin-top: 100px;
   text-align: center;
 }
 
 .toolsetdiv {
-  height: 500px;
-  width: 1200px;
+  height: auto;
+  width: 100%;
   margin: auto;
   display: flex;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   gap: 80px;
 }
 .toolset > div > button {
@@ -385,10 +406,10 @@
 
 .namediv {
   height: 250px;
-  width: 1200px;
+  width: 100%;
   margin: auto;
   /* display: flex; */
-  margin-top: 100px;
+  /* margin-top: 100px; */
   /* gap: 80px; */
   text-align: center;
   /* border: 1px solid red; */
@@ -427,6 +448,7 @@
   .toolsetdiv {
     display: grid;
     width: 100%;
+    max-width: 100%;
   }
   #middiv {
     width: 100%;
@@ -494,10 +516,12 @@
 #boximg {
   display: flex;
   align-items: center;
+  justify-content: center;
   justify-content: space-between;
   width: 100%;
   height: auto;
   background-color: rgb(26, 46, 68);
+  max-width: 100%;
   /* padding: 60px 0px 0px 190px; */
 }
 .contain {
@@ -518,7 +542,7 @@
 
 @media all and (min-width: 10px) and (max-width: 750px) {
   #boximg {
-    margin-top: 150%;
+    /* margin-top: 150%; */
     flex-direction: column;
     width: 100%;
   }

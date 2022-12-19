@@ -52,3 +52,7 @@ function checkPosition() {
 checkPosition()
 
 /// don't touch above code
+
+function homepage(){
+    window.location.href="Sign_up.html"
+}
