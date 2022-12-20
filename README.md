@@ -9,14 +9,17 @@ REFERENCEUserThis is a section of resources related to the user.![Screenshot_202
 /api/v1/user![Screenshot_20221220_133011](https://user-images.githubusercontent.com/82109628/208614283-c885bc3a-fd85-4ede-9f1d-4969b23548de.png)
 
 GET
-This resource does not have any attributes.
+This resource does not have any attributes.![Screenshot_20221220_133136](https://user-images.githubusercontent.com/82109628/208614785-52e4eba6-e6ad-4dcc-a2d2-76006c971c66.png)
+
 PATCH
 Update user information/api/v1/user/reset_api_token
-PATCH
+PATCH![Screenshot_20221220_133228](https://user-images.githubusercontent.com/82109628/208614805-2ed3e020-ce18-47c7-a056-49d884d1c433.png)
+
 Reset user API token
 ProjectThis is a section of resources related to the project (company).
 /api/v1/companies
-GET
+GET![Screenshot_20221220_133241](https://user-images.githubusercontent.com/82109628/208614833-73c4493d-0a58-47c4-b955-7e53e0f39add.png)
+
 Get a list of projects (companies) and inboxes
 POST
 Create a project (company)/api/v1/companies/id
@@ -33,7 +36,8 @@ InboxThis is a section of resources related to the inbox
 GET
 Get a list of inboxes/api/v1/inboxes/id
 GET
-Get inbox
+Get inbox![Screenshot_20221220_133257](https://user-images.githubusercontent.com/82109628/208614863-e18ab1bc-110a-4f18-8bb7-bf1eea7c9270.png)
+
 PATCH
 Update inbox
 DELETE
