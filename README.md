@@ -6,7 +6,8 @@ Mailtrap API V1 DocumentationINTRODUCTION⚠ Heads-up! API V2 is outUse API V2 f
 
 REFERENCEUserThis is a section of resources related to the user.![Screenshot_20221220_132915](https://user-images.githubusercontent.com/82109628/208614121-1e1da992-eea7-428e-93d4-9e41d9e46e29.png)
 
-/api/v1/user
+/api/v1/user![Screenshot_20221220_133011](https://user-images.githubusercontent.com/82109628/208614283-c885bc3a-fd85-4ede-9f1d-4969b23548de.png)
+
 GET
 This resource does not have any attributes.
 PATCH
