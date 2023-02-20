@@ -74,3 +74,6 @@ Shared InboxThis is a section of resources related to a shared inbox
 GET
 Get list of shared inboxes/api/v1/shared_inboxes/id
 DELETE
+
+<hr>
+Deploymed Link : https://mailtrap.netlify.app/
