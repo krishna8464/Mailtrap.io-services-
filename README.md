@@ -76,4 +76,5 @@ Get list of shared inboxes/api/v1/shared_inboxes/id
 DELETE
 
 <hr>
-Deployed Link : https://mailtrap.netlify.app/
+Github link : https://github.com/krishna8464/-average-alarm-4307
+Netlify Deployed Link : https://mailtrap.netlify.app/
