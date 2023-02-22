@@ -1,18 +1,17 @@
 {
   "user": [
     {
-      "email": "ashish@gmail.com",
-      "username": "Ashish",
-      "password": "123",
-      "avatar": "https://media.licdn.com/dms/image/D4D35AQHT3uTfPePafw/profile-framedphoto-shrink_100_100/0/1669003100792?e=1672045200&v=beta&t=DvKIEdVh7fvfmrhrpEz5PDj7jD7NHS_6_rHV4UD_CC8",
-      "id": 7,
-      "feedback": "Deliver emails with Mailtrap Email API or SMTP from any application. Monitor deliverability and share stats with the team.User Feedback, Email API for Developers",
+      "email": "yendavamshikrishna123@gmail.com",
+      "username": "Thakur",
+      "password": "1234",
+      "avatar": "https://media.licdn.com/dms/image/C5603AQFxlbV3vf9zAg/profile-displayphoto-shrink_400_400/0/1604484003055?e=1678320000&v=beta&t=xTvJ7eOn364kfM6AuODnB8zjT1cU3ZuF611r4lBOtGA",
+      "id": 8,
       "plan": {
         "planname": "individual",
         "planamount": "$14"
       },
       "address": {
-        "Name": "Ashish Pal",
+        "Name": "YENDA VAMSHI KRISHNA",
         "Company": "Amazon",
         "Tax_Inv": "555555441641641",
         "Adress": "kunalatchunnaidu peta",
@@ -21,16 +20,10 @@
         "Country": "IN",
         "Zipcode": "532432",
         "Contact": "8464963224",
-        "Mail": "ashish@gmail.com"
+        "Mail": "yendavamshikrishna123@gmail.com"
       },
-      "carddetials": "6649646464646464"
-    },
-    {
-      "email": "yendavamshikrishna123@gmail.com",
-      "username": "Vamshi",
-      "password": "Vamshi@111047",
-      "avatar": "https://media.licdn.com/dms/image/D4E03AQHRnp7JmOGkZw/profile-displayphoto-shrink_100_100/0/1665719590293?e=1677110400&v=beta&t=EX10D-MWbaonpBVCIX9_66rqQtEsLforX0cGUsSDakU",
-      "id": 8
+      "carddetials": "6546464646846416",
+      "feedback": "This app was awesome"
     }
   ]
 }
