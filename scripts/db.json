@@ -1,11 +1,61 @@
 {
   "user": [
     {
-      "email": "map@gmail.com",
-      "username": "map",
-      "password": "map",
+      "email": "ajay@gmail.com",
+      "username": "ajay jamage",
+      "password": "123",
+      "avatar": "https://media.licdn.com/dms/image/D4D03AQHnFlFR3WFnPw/profile-displayphoto-shrink_400_400/0/1675148524400?e=1683763200&v=beta&t=KH1nXpvChK8S610fMu77GxwBxT40YSyKgnxB7PANWos",
+      "id": 3,
+      "feedback": "This was awsome",
+      "plan": {
+        "planname": "Enterprise",
+        "planamount": "$399"
+      },
+      "address": {
+        "Name": "YENDA VAMSHI KRISHNA",
+        "Company": "Amazon",
+        "Tax_Inv": "555555441641641",
+        "Adress": "kunalatchunnaidu peta",
+        "Cityname": "jalumuru",
+        "State": "Andhra Pradesh",
+        "Country": "IN",
+        "Zipcode": "532432",
+        "Contact": "8464963224",
+        "Mail": "yendavamshikrishna123@gmail.com"
+      },
+      "carddetials": "8484646465646498"
+    },
+    {
+      "email": "ekta@gmail.com",
+      "username": "ekta",
+      "password": "123",
       "avatar": "https://getahut.netlify.app/images/user.png",
-      "id": 1
+      "id": 4
+    },
+    {
+      "email": "vam@gmail.com",
+      "username": "vam",
+      "password": "vam",
+      "avatar": "https://media.licdn.com/dms/image/D5635AQFu7Aqtz9jqqw/profile-framedphoto-shrink_400_400/0/1674926230047?e=1683392400&v=beta&t=Q_voYNsB0SC9NaG4o-ilM9KoRCZMNh_MIzH4UsfxdGA",
+      "id": 5,
+      "feedback": "This web site is fantastic",
+      "plan": {
+        "planname": "Business",
+        "planamount": "$64"
+      },
+      "address": {
+        "Name": "YENDA VAMSHI KRISHNA",
+        "Company": "Amazon",
+        "Tax_Inv": "416814919619",
+        "Adress": "kunalatchunnaidu peta",
+        "Cityname": "jalumuru",
+        "State": "Andhra Pradesh",
+        "Country": "IN",
+        "Zipcode": "532432",
+        "Contact": "8464963224",
+        "Mail": "yendavamshikrishna123@gmail.com"
+      },
+      "carddetials": "6164416464646464"
     }
   ],
   "posts": [
