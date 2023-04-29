@@ -1,7 +1,7 @@
 let existingdata = [];
 async function getData(){
 try {
-  let res = await fetch("http://localhost:3000/user")
+  let res = await fetch("https://maletrap-io.onrender.com/user")
   let out = await res.json();
   existingdata = out
   console.log(out)

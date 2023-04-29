@@ -8,7 +8,7 @@ if(access === "true"){
     let changelocation = document.getElementById("changelocation")
     let data = `
     <button id="barr" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <img style="width: 30px;height: 30px;" src="https://getahut.netlify.app/images/user.png"/>
+    <img style="width: 30px;height: 30px;" src="https://thumbs.dreamstime.com/z/icon-profile-color-green-icon-profile-color-green-circle-color-dark-green-background-color-white-194702090.jpg"/>
      </button>
     <ul class="dropdown-menu">
      <li><a href="userprofile.html" id="signin" class="dropdown-item" href="#">User Profil</a></li>
@@ -76,7 +76,7 @@ async function update(){
               avatar: inputavata.value,
             }
           
-          let change_pass = await fetch(`http://localhost:3000/user/${userid}`,{
+          let change_pass = await fetch(`https://maletrap-io.onrender.com/user/${userid}`,{
               method:"PATCH",
               headers : {
                   "Content-Type" : "application/json"
@@ -113,7 +113,7 @@ async function update(){
 async function getData(){
 try {
     let userid = sessionStorage.getItem('User-Id')
-  let res = await fetch(`http://localhost:3000/user/${userid}`)
+  let res = await fetch(`https://maletrap-io.onrender.com/user/${userid}`)
   let out = await res.json();
   sessionStorage.setItem("userdetials",JSON.stringify(out))
 } catch (error) {
@@ -157,7 +157,7 @@ async function pasupdate(){
              document.querySelector('#alertpas').innerHTML=data
         }else{
             let userid = sessionStorage.getItem('User-Id')
-            let change_pass = await fetch(`http://localhost:3000/user/${userid}`,{
+            let change_pass = await fetch(`https://maletrap-io.onrender.com/user/${userid}`,{
             method:"PATCH",
             headers : {
                 "Content-Type" : "application/json"

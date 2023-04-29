@@ -1,7 +1,7 @@
 let existingdata = [];
 async function getData(){
 try {
-  let res = await fetch("http://localhost:3000/user")
+  let res = await fetch("https://maletrap-io.onrender.com/user")
   let out = await res.json();
   existingdata = out
 } catch (error) {
@@ -104,7 +104,7 @@ async function signupbtn(){
         email : email.value.toLowerCase(),
         username : username.value,
         password :password.value,
-        avatar : "https://getahut.netlify.app/images/user.png"
+        avatar : "https://thumbs.dreamstime.com/z/icon-profile-color-green-icon-profile-color-green-circle-color-dark-green-background-color-white-194702090.jpg"
       }
       try {
         if(status){
@@ -121,7 +121,7 @@ async function signupbtn(){
           conpass.value="";
           document.querySelector('#alert').innerHTML=data
         }else{
-        let signreq= await fetch("http://localhost:3000/user",{
+        let signreq= await fetch("https://maletrap-io.onrender.com/user",{
           method:"POST",
           headers:{
               "Content-Type":"application/json"

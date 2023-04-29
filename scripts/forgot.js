@@ -1,7 +1,7 @@
 let existingdata = [];
 async function getData(){
 try {
-  let res = await fetch("http://localhost:3000/user")
+  let res = await fetch("https://maletrap-io.onrender.com/user")
   let out = await res.json();
   existingdata = out
   console.log(out)
@@ -125,7 +125,7 @@ async function patchotp(){
     try {
         let newpass = document.getElementById("otpsub")
         let userid = sessionStorage.getItem('userid')
-        let change_pass = await fetch(`http://localhost:3000/user/${userid}`,{
+        let change_pass = await fetch(`https://maletrap-io.onrender.com/user/${userid}`,{
             method:"PATCH",
             headers : {
                 "Content-Type" : "application/json"

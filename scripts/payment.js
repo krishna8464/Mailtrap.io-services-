@@ -69,7 +69,7 @@ async function Paytheamount(){
             let sesobj = JSON.parse(sessionStorage.getItem("addressdet"))
             sesobj[["carddetials"]]=cardnumber.value;
             let userid = sessionStorage.getItem('User-Id')
-            let adding_card = await fetch(`http://localhost:3000/user/${userid}`,{
+            let adding_card = await fetch(`https://maletrap-io.onrender.com/user/${userid}`,{
             method:"PATCH",
             headers : {
                 "Content-Type" : "application/json"
@@ -107,7 +107,7 @@ async function Paytheamount(){
 async function getData(){
     try {
         let userid = sessionStorage.getItem('User-Id')
-      let res = await fetch(`http://localhost:3000/user/${userid}`)
+      let res = await fetch(`https://maletrap-io.onrender.com/user/${userid}`)
       let out = await res.json();
       sessionStorage.setItem("userdetials",JSON.stringify(out))
     } catch (error) {

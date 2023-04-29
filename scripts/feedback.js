@@ -29,7 +29,7 @@ async function feedbacksub(){
         }else{
             let feedbacktext = document.getElementById("typefeedback")
             let userid = sessionStorage.getItem('User-Id')
-            let feedbackupdate = await fetch(`http://localhost:3000/user/${userid}`,{
+            let feedbackupdate = await fetch(`https://maletrap-io.onrender.com/user/${userid}`,{
             method:"PATCH",
             headers : {
                 "Content-Type" : "application/json"
@@ -64,7 +64,7 @@ async function feedbacksub(){
 async function getData(){
     try {
         let userid = sessionStorage.getItem('User-Id')
-      let res = await fetch(`http://localhost:3000/user/${userid}`)
+      let res = await fetch(`https://maletrap-io.onrender.com/user/${userid}`)
       let out = await res.json();
       sessionStorage.setItem("userdetials",JSON.stringify(out))
     } catch (error) {
